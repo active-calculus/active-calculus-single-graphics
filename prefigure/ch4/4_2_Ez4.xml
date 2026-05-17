@@ -1,0 +1,13 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1,-1,5,5)">
+    <grid spacings="((-1,0.5,5),(-1,0.5,5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,4)" vlabels="(0,1,4)"/>
+    <definition>f(x) = 0.5*exp(0.5*x)</definition>
+    <graph function="f" stroke="blue" domain="(0,4)"/>
+    <label anchor="(3.5,3)" alignment="nw" offset="(-2,2)"><m>y = r(t)</m></label>
+    <label anchor="(4,0.25)" alignment="ne" offset="(2,2)">weeks</label>
+    <label anchor="(0.25,4)" alignment="ne" offset="(2,2)">tons/week</label>
+  </coordinates>
+</diagram>

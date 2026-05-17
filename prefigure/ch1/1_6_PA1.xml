@@ -1,0 +1,25 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 180)">
+  <coordinates destination="(10,10,140,170)"
+               bbox="(-2,-2,12,16)">
+    <grid spacings="((-2,1,12),(-2,1,16))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(2,4,12)" vlabels="(2,4,16)"/>
+    <label anchor="(11.2,0.3)"><m>t</m></label>
+    <label anchor="(0.3,15.2)"><m>y</m></label>
+    <label anchor="(10.2,15.2)"><m>s</m></label>
+    <definition>f1(x) = 2*sin(0.5*pi*(x-1)) + 2</definition>
+    <graph function="f1" stroke="blue" domain="(0,2)" N="1000"/>
+    <definition>f2(x) = 4</definition>
+    <graph function="f2" stroke="blue" domain="(2,3)"/>
+    <definition>f3(x) = -2*sin(0.5*pi*(x-2)) + 6</definition>
+    <graph function="f3" stroke="blue" domain="(3,5)" N="1000"/>
+    <definition>f4(x) = 8</definition>
+    <graph function="f4" stroke="blue" domain="(5,7)"/>
+    <definition>f5(x) = -2*sin(0.5*pi*(x-2)) + 10</definition>
+    <graph function="f5" stroke="blue" domain="(7,9)" N="1000"/>
+    <definition>f6(x) = 12</definition>
+    <graph function="f6" stroke="blue" domain="(9,10)"/>
+    <definition>f7(x) = -2*sin(0.5*pi*(x-1)) + 14</definition>
+    <graph function="f7" stroke="blue" domain="(10,12)" N="1000"/>
+  </coordinates>
+</diagram>

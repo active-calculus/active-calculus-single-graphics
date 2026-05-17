@@ -1,0 +1,33 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1.25,-4.5,6.75,6.5)">
+    <grid spacings="((-1.25,8,6.75),(-4.5,11,6.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,6)" vlabels="(-4,2,6)"/>
+    <definition>f(x) = -(0.05*(x+1))*(x-0.5)*(x-4)*(x-5)*(x-6.5)</definition>
+    <area-under-curve function="f" domain="(-1,0.5)" fill="gainsboro"/>
+    <area-under-curve function="f" domain="(0.5,4)" fill="lightgray"/>
+    <area-under-curve function="f" domain="(4,5)" fill="gainsboro"/>
+    <area-under-curve function="f" domain="(5,6.5)" fill="lightgray"/>
+    <graph function="f" stroke="blue"/>
+    <label anchor="(-0.3,-0.8)" alignment="c"><m>A_1</m></label>
+    <label anchor="(2,3)" alignment="c"><m>A_2</m></label>
+    <label anchor="(5,-2)" alignment="se" offset="(2,-2)"><m>A_3</m></label>
+    <line endpoints="((5,-2),(4.5,-0.25))" stroke="black"/>
+    <label anchor="(5.95,0.8)" alignment="c"><m>A_4</m></label>
+    <label anchor="(3,4.25)" alignment="se" offset="(2,-2)"><m>y = g(t)</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-1.25,-11,6.75,16)">
+    <grid spacings="((-1.25,8,6.75),(-11,27,16))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-1,1,6)" vlabels="(-10,5,15)"/>
+    <definition>F(x) = -0.00833*x**6 + 0.15*x**5 - 0.87813*x**4 + 1.38333*x**3 + 2.60625*x**2 - 3.25*x - 5.20833</definition>
+    <graph function="F" stroke="blue" domain="(-1.25,6.75)"/>
+    <point p="(0.5,-6.06)" size="2" fill="red"/>
+    <point p="(5,6.33)" size="2" fill="red"/>
+    <label anchor="(0.5,-6.06)" alignment="se" offset="(2,-2)"><m>(0.5, -6.06)</m></label>
+    <label anchor="(5,6.33)" alignment="s" offset="(0,-2)"><m>(5, 6.33)</m></label>
+    <label anchor="(2.5,4.25)" alignment="se" offset="(2,-2)"><m>y = F(x)</m></label>
+  </coordinates>
+</diagram>

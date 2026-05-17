@@ -1,0 +1,20 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(120,120)">
+  <coordinates destination="(5,5,115,115)"
+               bbox="(0,0,1,1)">
+    <rectangle lower-left="(0,0)" dimensions="(1,1)" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = 0.8*x + 1</definition>
+    <graph function="f" stroke="blue"/>
+    <path start="(2,2.6)" stroke="gray">
+      <lineto point="(5,2.6)"/>
+      <lineto point="(5,5)"/>
+    </path>
+    <point p="(2,2.6)" fill="red"/>
+    <point p="(5,5)" fill="red"/>
+    <label anchor="(1,0)" alignment="nw" offset="(-3,3)"><m>t</m></label>
+    <label anchor="(0,1)" alignment="se" offset="(3,-3)"><m>y</m></label>
+    <label anchor="(3.5,2.6)" alignment="s" offset="(0,-3)"><m>\Delta t</m></label>
+    <label anchor="(5,3.8)" alignment="e" offset="(3,0)"><m>\Delta y</m></label>
+  </coordinates>
+</diagram>

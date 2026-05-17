@@ -1,0 +1,14 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-4,-4,4,4)">
+    <grid spacings="((-4,1,4),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,3,3)" vlabels="(-3,3,3)"/>
+    <definition>f(x,y) = x*x*x + y*y - 2*x*y - 2</definition>
+    <implicit-curve function="f" value="0" initial-depth="6" depth="10" stroke="blue"/>
+    <line endpoints="((-2.5,1.325),(0.5,0.635))" stroke="darkgreen" thickness="1.5"/>
+    <point p="(-1,1)" size="2" fill="red"/>
+    <label anchor="(3.2,0.2)" alignment="ne" offset="(2,2)"><m>x</m></label>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)"><m>y</m></label>
+  </coordinates>
+</diagram>

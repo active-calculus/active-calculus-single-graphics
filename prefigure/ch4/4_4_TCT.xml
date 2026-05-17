@@ -1,0 +1,40 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,225)">
+  <coordinates destination="(5,5,140,215)"
+               bbox="(-1,-5,5,5)">
+    <grid spacings="((-1,1,5),(-5,1,5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,2)" vlabels="(-4,1,4)"/>
+    <label anchor="(1.3,-3)" alignment="ne" offset="(2,2)"><m>y = f'(x)</m></label>
+    <label anchor="(3,0.2)" alignment="n" offset="(0,2)"><m>3</m></label>
+    <label anchor="(4,0.2)" alignment="n" offset="(0,2)"><m>4</m></label>
+    <definition>fp(x) = 4 - 2*x</definition>
+    <area-under-curve function="fp" domain="(0,1)" fill="lightgreen"/>
+    <label anchor="(0.5,1.5)" alignment="c"><m>3</m></label>
+    <area-under-curve function="fp" domain="(1,2)" fill="lightgreen"/>
+    <label anchor="(1.35,0.5)" alignment="c"><m>1</m></label>
+    <area-under-curve function="fp" domain="(2,3)" fill="lightgreen"/>
+    <label anchor="(2.65,-0.5)" alignment="c"><m>1</m></label>
+    <area-under-curve function="fp" domain="(3,4)" fill="lightgreen"/>
+    <label anchor="(3.5,-1.5)" alignment="c"><m>3</m></label>
+    <graph function="fp" stroke="lightblue" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(160,5,295,215)"
+               bbox="(-1,-5,5,5)">
+    <grid spacings="((-1,1,5),(-5,1,5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,4)" vlabels="(-4,1,4)"/>
+    <label anchor="(2.6,-3)" alignment="ne" offset="(2,2)"><m>y = f(x)</m></label>
+    <definition>f(x) = 4*x - x**2</definition>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+    <point p="(0,0)" size="2" fill="blue" cliptobbox="yes"/>
+    <label anchor="(0,0)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>(0,0)</m></label>
+    <point p="(1,3)" size="2" fill="blue" cliptobbox="yes"/>
+    <label anchor="(1,3)" alignment="se" offset="(2,-2)" cliptobbox="yes"><m>(1,3)</m></label>
+    <point p="(2,4)" size="2" fill="blue" cliptobbox="yes"/>
+    <label anchor="(2,4)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>(2,4)</m></label>
+    <point p="(3,3)" size="2" fill="blue" cliptobbox="yes"/>
+    <label anchor="(3,3)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>(3,3)</m></label>
+    <point p="(4,0)" size="2" fill="blue" cliptobbox="yes"/>
+    <label anchor="(4,0)" alignment="ne" offset="(1,2)" cliptobbox="yes"><m>(4,0)</m></label>
+  </coordinates>
+</diagram>

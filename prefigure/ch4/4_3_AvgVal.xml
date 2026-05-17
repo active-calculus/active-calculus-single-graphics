@@ -1,0 +1,50 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(450,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-0.5,3.5,4.5)">
+    <grid spacings="((-0.5,4,3.5),(-0.5,5,4.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f1(x) = 0.5*(x-1)**2 + 1</definition>
+    <area-under-curve function="f1" domain="(0.5,3)" fill="lightblue"/>
+    <graph function="f1" stroke="blue"/>
+    <label anchor="(0.5,-0.5)" alignment="n" offset="(0,2)"><m>a</m></label>
+    <label anchor="(3,-0.5)" alignment="n" offset="(0,2)"><m>b</m></label>
+    <label anchor="(1.75,0.5)" alignment="c"><m>\int_a^b f(x) \, dx</m></label>
+    <label anchor="(3.4,4)" alignment="nw" offset="(-2,2)"><m>y = f(x)</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-0.5,-0.5,3.5,4.5)">
+    <grid spacings="((-0.5,4,3.5),(-0.5,5,4.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f2(x) = 1.54167</definition>
+    <area-under-curve function="f2" domain="(0.5,3)" fill="lightgreen"/>
+    <definition>f3(x) = 0.5*(x-1)**2 + 1</definition>
+    <graph function="f2" stroke="darkgreen"/>
+    <graph function="f3" stroke="lightblue"/>
+    <label anchor="(0.5,-0.5)" alignment="n" offset="(0,2)"><m>a</m></label>
+    <label anchor="(0,1.54)" alignment="ne" offset="(2,2)"><m>f_{\mbox{\tiny{AVG}}[a,b]}</m></label>
+    <label anchor="(1.75,0.5)" alignment="c"><m>(b-a) \cdot f_{\mbox{\tiny{AVG}}[a,b]}</m></label>
+    <label anchor="(3,-0.5)" alignment="n" offset="(0,2)"><m>b</m></label>
+    <label anchor="(3.4,4)" alignment="nw" offset="(-2,2)"><m>y = f(x)</m></label>
+  </coordinates>
+
+  <coordinates destination="(310,10,440,140)"
+               bbox="(-0.5,-0.5,3.5,4.5)">
+    <grid spacings="((-0.5,4,3.5),(-0.5,5,4.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f4(x) = 0.5*(x-1)**2 + 1</definition>
+    <area-under-curve function="f4" domain="(0.5,3)" fill="lightblue"/>
+    <definition>f5(x) = 1.54167</definition>
+    <area-under-curve function="f5" domain="(0.5,3)" fill="lightgreen"/>
+    <area-under-curve function="f5" domain="(2.04084,3)" fill="lightgray"/>
+    <area-under-curve function="f4" domain="(0.5,2.04084)" fill="lightgray"/>
+    <graph function="f5" stroke="darkgreen"/>
+    <graph function="f4" stroke="blue"/>
+    <label anchor="(0.5,-0.5)" alignment="n" offset="(0,2)"><m>a</m></label>
+    <label anchor="(3,-0.5)" alignment="n" offset="(0,2)"><m>b</m></label>
+    <label anchor="(1.1,1.05)" alignment="n" offset="(0,2)"><m>A_1</m></label>
+    <label anchor="(2.65,1.7)" alignment="n" offset="(0,2)"><m>A_2</m></label>
+    <label anchor="(3.4,4)" alignment="nw" offset="(-2,2)"><m>y = f(x)</m></label>
+  </coordinates>
+</diagram>

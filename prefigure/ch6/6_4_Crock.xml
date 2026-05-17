@@ -1,0 +1,29 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-3,-5,3,1)">
+    <grid spacings="((-3,6,3),(-5,6,1))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <line endpoints="((0.75,-4),(1.5,0))" stroke="darkblue"/>
+    <line endpoints="((-0.75,-4),(-1.5,0))" stroke="darkblue"/>
+    <definition>__a(t) = (0.75*cos(t), 0.125*sin(t)-4)</definition>
+    <parametric-curve function="__a" domain="(pi, 2*pi)" stroke="darkblue"/>
+    <definition>__b(t) = (1.5*cos(t), 0.25*sin(t))</definition>
+    <parametric-curve function="__b" domain="(0, 2*pi)" stroke="darkblue"/>
+    <definition>__c(t) = (1.3333333*cos(t), 0.175*sin(t)-1)</definition>
+    <parametric-curve function="__c" domain="(0, 2*pi)" stroke="blue"/>
+    <definition>__d(t) = (1.3333333*cos(t), 0.175*sin(t)-1.25)</definition>
+    <parametric-curve function="__d" domain="(pi, 2*pi)" stroke="blue"/>
+    <line endpoints="((1.3333333,-1),(1.3333333,-1.25))" stroke="blue"/>
+    <line endpoints="((-1.3333333,-1),(-1.3333333,-1.25))" stroke="blue"/>
+    <point p="(0.75,-4)" size="1.5" fill="blue"/>
+    <point p="(1.5,0)" size="1.5" fill="blue"/>
+    <label anchor="(0.1,-4.5)" alignment="e" offset="(2,0)"><m>x^+</m></label>
+    <label anchor="(2.25,0)" alignment="ne" offset="(2,2)"><m>y^+</m></label>
+    <label anchor="(1.5,0)" alignment="se" offset="(2,-4)" scale="0.8"><m>(0,1.5)</m></label>
+    <label anchor="(0.75,-4)" alignment="ne" offset="(4,2)" scale="0.8"><m>(4,0.75)</m></label>
+    <label anchor="(-1.3333333,-1.125)" alignment="w" offset="(-2,0)"><m>\triangle x</m></label>
+    <label anchor="(0,-1.0)" alignment="w" offset="(-2,0)"><m>x</m></label>
+    <label anchor="(1.25,-2)" alignment="e" offset="(2,0)" scale="0.8"><m>y=f(x)</m></label>
+  </coordinates>
+</diagram>

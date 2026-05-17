@@ -1,0 +1,21 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(400,250)">
+  <coordinates destination="(20,20,395,245)"
+               bbox="(0,-1.5,5,1.5)">
+    <grid spacings="((0,0.5,5),(-1.5,0.5,1.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,5)" vlabels="(-1.5,0.5,1.5)"/>
+    <label anchor="(5,0)" alignment="nw" offset="(-3,3)"><m>v</m></label>
+    <label anchor="(0,1.5)" alignment="se" offset="(3,-3)"><m>v'</m></label>
+    <definition>f(x) = 1.5 - 0.5*x</definition>
+    <graph function="f" stroke="darkmagenta"/>
+    <point p="(0.5,f(0.5))" fill="red"/>
+    <point p="(1.0,f(1.0))" fill="red"/>
+    <point p="(1.5,f(1.5))" fill="red"/>
+    <point p="(2.0,f(2.0))" fill="red"/>
+    <point p="(2.5,f(2.5))" fill="red"/>
+    <point p="(3.5,f(3.5))" fill="red"/>
+    <point p="(4.0,f(4.0))" fill="red"/>
+    <point p="(4.5,f(4.5))" fill="red"/>
+    <point p="(5.0,f(5.0))" fill="red"/>
+  </coordinates>
+</diagram>

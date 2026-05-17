@@ -1,0 +1,27 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300, 150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-3.5,-3.5,3.5,3.5)">
+    <grid spacings="((-3.5,0.5,3.5),(-3.5,0.5,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,3,3)" vlabels="(-3,3,3)"/>
+    <label anchor="(-2.5,3)"><m>p</m></label>
+    <definition>f1(x) = -2*x-3</definition>
+    <graph function="f1" stroke="blue" domain="(-3.5,-2)" cliptobbox="yes"/>
+    <definition>f2(x) = -0.5*(x+1)+0.5</definition>
+    <graph function="f2" stroke="blue" domain="(-2,0)" cliptobbox="yes"/>
+    <definition>f3(x) = x-2</definition>
+    <graph function="f3" stroke="blue" domain="(0,1)" cliptobbox="yes"/>
+    <definition>f4(x) = -1</definition>
+    <graph function="f4" stroke="blue" domain="(1,2)" cliptobbox="yes"/>
+    <definition>f5(x) = 3*(x-2)-1</definition>
+    <graph function="f5" stroke="blue" domain="(2,3.5)" cliptobbox="yes"/>
+    <point p="(0,0)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(0,-2)" size="2" fill="blue" cliptobbox="yes"/>
+    <point p="(3,2)" size="2" fill="white" cliptobbox="yes"/>
+  </coordinates>
+  <coordinates destination="(155,5,295,145)"
+               bbox="(-3.5,-3.5,3.5,3.5)">
+    <grid spacings="((-3.5,0.5,3.5),(-3.5,0.5,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,3,3)" vlabels="(-3,3,3)"/>
+  </coordinates>
+</diagram>

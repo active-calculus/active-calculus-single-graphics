@@ -1,0 +1,11 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(0,0,3,3)">
+    <axes decorations="no"/>
+    <definition>f(t,P) = 1.5 - P</definition>
+    <slope-field function="f" spacings="((0,0.5,3),(0,0.5,3))" stroke="green"/>
+    <label anchor="(3,0)" alignment="nw" offset="(0,3)"><m>t</m></label>
+    <label anchor="(0,3)" alignment="se" offset="(3,-3)"><m>P</m></label>
+  </coordinates>
+</diagram>

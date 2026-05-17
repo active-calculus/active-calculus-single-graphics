@@ -1,0 +1,62 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(360,160)">
+  <coordinates destination="(10,10,110,150)"
+               bbox="(-0.5,-0.5,2.5,3.5)">
+    <grid spacings="((-0.5,0.25,2.5),(-0.5,0.25,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,2)" vlabels="(1,1,3)"/>
+    <definition>f1(x) = 0.25*x**3 - 1.5*x**2 + 3.0*x + 0.25</definition>
+    <riemann-sum function="f1" N="4" domain="(0,2)" rule="left" fill="lightgreen"/>
+    <graph function="f1" stroke="blue" domain="(-0.25,2.25)" cliptobbox="yes"/>
+    <label anchor="(0.1,3)" alignment="ne" offset="(2,2)" cliptobbox="yes">mph</label>
+    <label anchor="(2,0.1)" alignment="ne" offset="(2,2)" cliptobbox="yes">hrs</label>
+    <label anchor="(2,2.5)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>y= v(t)</m></label>
+    <label anchor="(0.25,-0.25)" alignment="c" cliptobbox="yes"><m>A_1</m></label>
+    <label anchor="(0.75,0.5)" alignment="c" cliptobbox="yes"><m>A_2</m></label>
+    <label anchor="(1.25,0.75)" alignment="c" cliptobbox="yes"><m>A_3</m></label>
+    <label anchor="(1.75,1.0)" alignment="c" cliptobbox="yes"><m>A_4</m></label>
+    <point p="(0,0.25)" size="1.5" fill="blue" cliptobbox="yes"/>
+    <point p="(0.5,1.406)" size="1.5" fill="blue" cliptobbox="yes"/>
+    <point p="(1,2.0)" size="1.5" fill="blue" cliptobbox="yes"/>
+    <point p="(1.5,2.219)" size="1.5" fill="blue" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(130,10,230,150)"
+               bbox="(-0.5,-0.5,2.5,3.5)">
+    <grid spacings="((-0.5,0.25,2.5),(-0.5,0.25,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,2)" vlabels="(1,1,3)"/>
+    <definition>f2(x) = 0.25*x**3 - 1.5*x**2 + 3.0*x + 0.25</definition>
+    <riemann-sum function="f2" N="4" domain="(0,2)" rule="right" fill="lightgreen"/>
+    <graph function="f2" stroke="blue" domain="(-0.25,2.25)" cliptobbox="yes"/>
+    <label anchor="(0.1,3)" alignment="ne" offset="(2,2)" cliptobbox="yes">mph</label>
+    <label anchor="(2,0.1)" alignment="ne" offset="(2,2)" cliptobbox="yes">hrs</label>
+    <label anchor="(2,2.5)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>y= v(t)</m></label>
+    <label anchor="(0.25,0.25)" alignment="c" cliptobbox="yes"><m>B_1</m></label>
+    <label anchor="(0.75,0.5)" alignment="c" cliptobbox="yes"><m>B_2</m></label>
+    <label anchor="(1.25,0.75)" alignment="c" cliptobbox="yes"><m>B_3</m></label>
+    <label anchor="(1.75,1)" alignment="c" cliptobbox="yes"><m>B_4</m></label>
+    <point p="(0.5,1.406)" size="1.5" fill="blue" cliptobbox="yes"/>
+    <point p="(1,2.0)" size="1.5" fill="blue" cliptobbox="yes"/>
+    <point p="(1.5,2.219)" size="1.5" fill="blue" cliptobbox="yes"/>
+    <point p="(2,2.25)" size="1.5" fill="blue" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(250,10,350,150)"
+               bbox="(-0.5,-0.5,2.5,3.5)">
+    <grid spacings="((-0.5,0.25,2.5),(-0.5,0.25,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,2)" vlabels="(1,1,3)"/>
+    <definition>f3(x) = 0.25*x**3 - 1.5*x**2 + 3.0*x + 0.25</definition>
+    <riemann-sum function="f3" N="4" domain="(0,2)" rule="midpoint" fill="lightgreen"/>
+    <graph function="f3" stroke="blue" domain="(-0.25,2.25)" cliptobbox="yes"/>
+    <label anchor="(0.1,3)" alignment="ne" offset="(2,2)" cliptobbox="yes">mph</label>
+    <label anchor="(2,0.1)" alignment="ne" offset="(2,2)" cliptobbox="yes">hrs</label>
+    <label anchor="(2,2.5)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>y= v(t)</m></label>
+    <label anchor="(0.25,0.25)" alignment="c" cliptobbox="yes"><m>C_1</m></label>
+    <label anchor="(0.75,0.5)" alignment="c" cliptobbox="yes"><m>C_2</m></label>
+    <label anchor="(1.25,0.75)" alignment="c" cliptobbox="yes"><m>C_3</m></label>
+    <label anchor="(1.75,1.0)" alignment="c" cliptobbox="yes"><m>C_4</m></label>
+    <point p="(0.25,0.910)" size="1.5" fill="blue" cliptobbox="yes"/>
+    <point p="(0.75,1.762)" size="1.5" fill="blue" cliptobbox="yes"/>
+    <point p="(1.25,2.145)" size="1.5" fill="blue" cliptobbox="yes"/>
+    <point p="(1.75,2.246)" size="1.5" fill="blue" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-1,-1,16,16)">
+    <label anchor="(0,8)" alignment="w" offset="(-2,0)"><m>15</m></label>
+    <label anchor="(4,0)" alignment="s" offset="(0,-4)"><m>x</m></label>
+    <label anchor="(10.7,0)" alignment="s" offset="(0,-4)"><m>s</m></label>
+    <label anchor="(8,3)" alignment="w" offset="(-2,0)"><m>6</m></label>
+    <line endpoints="((0,0),(0,15))" stroke="black" thickness="1.5"/>
+    <line endpoints="((0,0),(13.333,0))" stroke="black" thickness="1.5"/>
+    <line endpoints="((8,0),(8,6))" stroke="blue" thickness="1.5"/>
+    <line endpoints="((0,15),(13.333,0))" stroke="gray" thickness="1.5" dash="4 4"/>
+    <point p="(0,15)" size="2" fill="red"/>
+    <point p="(8,0)" size="2" fill="red"/>
+    <point p="(13.333,0)" size="2" fill="red"/>
+    <label anchor="(0,15)" alignment="n" offset="(0,2)">lamp</label>
+  </coordinates>
+</diagram>

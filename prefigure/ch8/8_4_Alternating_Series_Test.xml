@@ -1,0 +1,34 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(200,60)">
+  <coordinates destination="(5,5,195,55)"
+               bbox="(0,-0.5,1.2,0.3)">
+    <axes decorations="no"/>
+    <path start="(0.533284,0)" stroke="black">
+      <lineto point="(0.648602,0)"/>
+    </path>
+    <label anchor="(0.590943,0)" alignment="n" offset="(2,6)"><m>a_n</m></label>
+    <transform>
+      <translate by="(0,-0.15)"/>
+      <path start="(0,0)" stroke="black">
+        <lineto point="(9,0)"/>
+      </path>
+      <point p="(1.000000,0)" size="2.5" fill="blue"/>
+      <label anchor="(1.000000,0)" alignment="s" offset="(0,-5)"><m>S_1</m></label>
+      <point p="(0.170000,0)" size="2.5" fill="blue"/>
+      <label anchor="(0.170000,0)" alignment="s" offset="(0,-5)"><m>S_2</m></label>
+      <point p="(0.858900,0)" size="2.5" fill="blue"/>
+      <label anchor="(0.858900,0)" alignment="s" offset="(0,-5)"><m>S_3</m></label>
+      <point p="(0.287113,0)" size="2.5" fill="blue"/>
+      <label anchor="(0.287113,0)" alignment="s" offset="(0,-5)"><m>S_4</m></label>
+      <point p="(0.761696,0)" size="2.5" fill="blue"/>
+      <label anchor="(0.761696,0)" alignment="s" offset="(0,-5)"><m>S_5</m></label>
+      <point p="(0.367793,0)" size="2.5" fill="blue"/>
+      <label anchor="(0.367793,0)" alignment="s" offset="(0,-5)"><m>S_6</m></label>
+      <label anchor="(0.367793,0)" alignment="se" offset="(5,-12)"><m>\ldots</m></label>
+      <point p="(0.533284,0)" size="2.5" fill="blue"/>
+      <label anchor="(0.533284,0)" alignment="s" offset="(0,-5)"><m>S_{n-1}</m></label>
+      <point p="(0.648602,0)" size="2.5" fill="blue"/>
+      <label anchor="(0.648602,0)" alignment="s" offset="(0,-5)"><m>S_{n}</m></label>
+    </transform>
+  </coordinates>
+</diagram>

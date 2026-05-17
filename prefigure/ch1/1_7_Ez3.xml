@@ -1,0 +1,28 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300, 150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-3.5,-3.5,3.5,3.5)">
+    <grid spacings="((-3.5,0.5,3.5),(-3.5,0.5,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,3,3)" vlabels="(-3,3,3)"/>
+  </coordinates>
+  <coordinates destination="(155,5,295,145)"
+               bbox="(-3.5,-3.5,3.5,3.5)">
+    <grid spacings="((-3.5,0.5,3.5),(-3.5,0.5,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,1,3)" vlabels="(-3,1,3)"/>
+    <label anchor="(1,1.2)"><m>y=h'(x)</m></label>
+    <definition>f1(x) = 1</definition>
+    <graph function="f1" stroke="blue" domain="(-3.5,-2)" cliptobbox="yes"/>
+    <definition>f2(x) = -1</definition>
+    <graph function="f2" stroke="blue" domain="(-2,0)" cliptobbox="yes"/>
+    <definition>f3(x) = 1</definition>
+    <graph function="f3" stroke="blue" domain="(0,2)" cliptobbox="yes"/>
+    <definition>f4(x) = -1</definition>
+    <graph function="f4" stroke="blue" domain="(2,3.5)" cliptobbox="yes"/>
+    <point p="(-2,1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(-2,-1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(0,1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(0,-1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(2,1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(2,-1)" size="2" fill="white" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

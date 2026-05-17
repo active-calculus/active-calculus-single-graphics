@@ -1,0 +1,16 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(200,100)">
+  <coordinates destination="(5,5,195,95)"
+               bbox="(-4,-1,4,3)">
+    <line endpoints="((0,2),(4,0))" stroke="blue" thickness="1.5"/>
+    <line endpoints="((0,2),(-4,0))" stroke="blue" thickness="1.5"/>
+    <line endpoints="((0,2),(0,0))" stroke="gray" thickness="1"/>
+    <line endpoints="((4,0),(0,0))" stroke="gray" thickness="1"/>
+    <definition>f1(x) = -sqrt(0.25 - x**2/64)</definition>
+    <graph function="f1" stroke="blue" domain="(-3.999,3.999)" cliptobbox="yes"/>
+    <definition>f2(x) = sqrt(0.25 - x**2/64) - 0.05</definition>
+    <graph function="f2" stroke="blue" domain="(-3.99,3.99)" dash="4 4" cliptobbox="yes"/>
+    <label anchor="(2,0)" alignment="n" offset="(0,2)" cliptobbox="yes"><m>r</m></label>
+    <label anchor="(0,1)" alignment="e" offset="(2,0)" cliptobbox="yes"><m>h</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,14 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1,-20,6,150)">
+    <grid spacings="((-1,7,6),(-20,170,150))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,2,5)" vlabels="(0,20,140)"/>
+    <definition>f(x) = 3*x**2 + 40</definition>
+    <area-under-curve function="f" domain="(1,5)" fill="lightblue"/>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+    <label anchor="(3,35)" alignment="c" cliptobbox="yes"><m>D =\int_1^5 v(t) \, dt</m></label>
+    <label anchor="(2.65,15)" alignment="c" cliptobbox="yes"><m>=284</m></label>
+    <label anchor="(5,112)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>y = v(t)</m></label>
+  </coordinates>
+</diagram>

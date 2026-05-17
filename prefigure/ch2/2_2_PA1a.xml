@@ -1,0 +1,16 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(240,180)">
+  <coordinates destination="(10,10,110,170)"
+               bbox="(-3,-1,3,8)">
+    <grid spacings="((-3,1,3),(-1,1,8))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,1,2)" vlabels="(0,1,7)"/>
+    <definition>f(x) = 2**x</definition>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(130,10,230,170)"
+               bbox="(-3,-1,3,8)">
+    <grid spacings="((-3,1,3),(-1,1,8))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,1,2)" vlabels="(0,1,7)"/>
+  </coordinates>
+</diagram>

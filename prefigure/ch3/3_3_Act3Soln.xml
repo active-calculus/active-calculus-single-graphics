@@ -1,0 +1,15 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(200,150)">
+  <coordinates destination="(7,7,193,143)"
+               bbox="(-3,-2,17,13)">
+    <rectangle lower-left="(0,0)" dimensions="(15,10)" stroke="black"/>
+    <polygon points="((0,0),(0,2),(2,2),(2,0))" closed="yes" stroke="gray" fill="gray" thickness="1"/>
+    <label anchor="(1,2)" alignment="n" offset="(0,2)"><m>x</m></label>
+    <label anchor="(2,1)" alignment="e" offset="(2,0)"><m>x</m></label>
+    <polygon points="((0,8),(2,8),(2,10),(0,10))" closed="yes" stroke="gray" fill="gray" thickness="1"/>
+    <polygon points="((13,8),(15,8),(15,10),(13,10))" closed="yes" stroke="gray" fill="gray" thickness="1"/>
+    <polygon points="((13,0),(15,0),(15,2),(13,2))" closed="yes" stroke="gray" fill="gray" thickness="1"/>
+    <label anchor="(0,5)" alignment="w" offset="(-2,0)"><m>10-2x</m></label>
+    <label anchor="(7.5,-0.5)" alignment="s" offset="(0,-2)"><m>15-2x</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,21 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-2,-8,5,8)">
+    <grid spacings="((-2,7,5),(-8,16,8))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = 2 - 2*x</definition>
+    <area-under-curve function="f" domain="(-1,1)" fill="lightblue"/>
+    <area-under-curve function="f" domain="(1,4)" fill="lightred"/>
+    <graph function="f" stroke="blue"/>
+    <label anchor="(3,-4)" alignment="sw" offset="(-2,-2)"><m>y = 2-2x</m></label>
+    <label anchor="(-0.2,1)" alignment="c"><m>A_1</m></label>
+    <label anchor="(3,-2)" alignment="c"><m>A_2</m></label>
+    <point p="(-1,4)" size="2" fill="blue"/>
+    <label anchor="(-1,4)" alignment="ne" offset="(2,2)"><m>(-1,4)</m></label>
+    <point p="(1,0)" size="2" fill="blue"/>
+    <label anchor="(1,0)" alignment="ne" offset="(2,2)"><m>(1,0)</m></label>
+    <point p="(4,-6)" size="2" fill="blue"/>
+    <label anchor="(4,-6)" alignment="sw" offset="(-2,-2)"><m>(4,-6)</m></label>
+  </coordinates>
+</diagram>

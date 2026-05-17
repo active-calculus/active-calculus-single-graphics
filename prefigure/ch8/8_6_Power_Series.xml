@@ -1,0 +1,16 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,120)">
+  <coordinates destination="(5,5,145,115)"
+               bbox="(-2,-10,2,10)">
+    <grid spacings="((-2,0.5,2),(-10,2.5,10))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,1,2)" vlabels="(-10,5,10)"/>
+    <label anchor="(2,0)" alignment="nw" offset="(0,3)"><m>x</m></label>
+    <label anchor="(0,10)" alignment="se" offset="(3,-3)"><m>y</m></label>
+    <definition>__a(x) = x + x**2/4 + x**3/9 + x**4/16 + x**5/25 + x**6/36 + x**7/49 + x**8/64 + x**9/81 + x**10/100</definition>
+    <definition>__b(x) = x + x**2/4 + x**3/9 + x**4/16 + x**5/25 + x**6/36 + x**7/49 + x**8/64 + x**9/81 + x**10/100 + x**11/121 + x**12/144 + x**13/169 + x**14/196 + x**15/225 + x**16/256 + x**17/289 + x**18/324 + x**19/361 + x**20/400 + x**21/441 + x**22/484 + x**23/529 + x**24/576 + x**25/625</definition>
+    <definition>__c(x) = x + x**2/4 + x**3/9 + x**4/16 + x**5/25 + x**6/36 + x**7/49 + x**8/64 + x**9/81 + x**10/100 + x**11/121 + x**12/144 + x**13/169 + x**14/196 + x**15/225 + x**16/256 + x**17/289 + x**18/324 + x**19/361 + x**20/400 + x**21/441 + x**22/484 + x**23/529 + x**24/576 + x**25/625 + x**26/676 + x**27/729 + x**28/784 + x**29/841 + x**30/900 + x**31/961 + x**32/1024 + x**33/1089 + x**34/1156 + x**35/1225 + x**36/1296 + x**37/1369 + x**38/1444 + x**39/1521 + x**40/1600 + x**41/1681 + x**42/1764 + x**43/1849 + x**44/1936 + x**45/2025 + x**46/2116 + x**47/2209 + x**48/2304 + x**49/2401 + x**50/2500</definition>
+    <graph function="__a" N="200" stroke="red" cliptobbox="yes"/>
+    <graph function="__b" N="200" stroke="blue" cliptobbox="yes"/>
+    <graph function="__c" N="200" stroke="green" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

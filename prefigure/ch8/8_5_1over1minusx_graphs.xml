@@ -1,0 +1,19 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(120,120)">
+  <coordinates destination="(5,5,115,115)"
+               bbox="(-1.5,-2,1.5,10)">
+    <grid spacings="((-1.5,0.5,1.5),(-2,2,10))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,1,2)" vlabels="(-2,2,10)"/>
+    <label anchor="(1.5,0)" alignment="nw" offset="(0,3)"><m>x</m></label>
+    <label anchor="(0,10)" alignment="se" offset="(3,-3)"><m>y</m></label>
+    <definition>f(x) = 1/(1-x)</definition>
+    <definition>__a(x) = 1 + x + x**2 + x**3 + x**4 + x**5</definition>
+    <definition>__b(x) = 1 + x + x**2 + x**3 + x**4 + x**5 + x**6 + x**7 + x**8 + x**9</definition>
+    <definition>__c(x) = 1 + x + x**2 + x**3 + x**4 + x**5 + x**6 + x**7 + x**8 + x**9 + x**10 + x**11</definition>
+    <graph function="__a" stroke="blue" cliptobbox="yes"/>
+    <graph function="__b" stroke="magenta" cliptobbox="yes"/>
+    <graph function="__c" stroke="lightorange" cliptobbox="yes"/>
+    <graph function="f" stroke="red" domain="(-1.5,0.999)" cliptobbox="yes"/>
+    <graph function="f" stroke="red" domain="(1.001,1.5)" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

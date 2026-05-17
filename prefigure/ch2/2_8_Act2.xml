@@ -1,0 +1,46 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(450,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-2.5,4.5,2.5)">
+    <grid spacings="((-0.5,0.5,4.5),(-2.5,0.5,2.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,4)" vlabels="(-2,1,2)"/>
+    <definition>f1(x) = 0.125*(x**2-4)</definition>
+    <graph function="f1" stroke="darkblue" domain="(-0.5,4.5)" cliptobbox="yes"/>
+    <tangent-line function="f1" point="2" domain="(0.6,3.4)" stroke="darkgreen" cliptobbox="yes"/>
+    <definition>f2(x) = -1*(4-x**2)</definition>
+    <graph function="f2" stroke="lightblue" domain="(-0.5,4.5)" cliptobbox="yes"/>
+    <tangent-line function="f2" point="2" domain="(0.6,3.4)" stroke="green" cliptobbox="yes"/>
+    <point p="(2,0)" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(4,1.5)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>f</m></label>
+    <label anchor="(2.1,2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>g</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-0.5,-2.5,4.5,2.5)">
+    <grid spacings="((-0.5,0.5,4.5),(-2.5,0.5,2.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,4)" vlabels="(-2,1,2)"/>
+    <definition>f1(x) = 1.5-0.5*(x-2)**2</definition>
+    <graph function="f1" stroke="lightblue" domain="(-0.5,4.5)" cliptobbox="yes"/>
+    <tangent-line function="f1" point="2" domain="(0.6,3.4)" stroke="green" cliptobbox="yes"/>
+    <definition>f2(x) = 2-0.5*(x-1)**2</definition>
+    <graph function="f2" stroke="darkblue" domain="(-0.5,4.5)" cliptobbox="yes"/>
+    <tangent-line function="f2" point="2" domain="(0.6,3.4)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(2,1.5)" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(0.5,2)" alignment="nw" offset="(-2,0)" cliptobbox="yes"><m>p</m></label>
+    <label anchor="(0.5,0.5)" alignment="nw" offset="(-2,0)" cliptobbox="yes"><m>q</m></label>
+  </coordinates>
+
+  <coordinates destination="(310,10,440,140)"
+               bbox="(-0.5,-2.5,4.5,2.5)">
+    <grid spacings="((-0.5,0.5,4.5),(-2.5,0.5,2.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,4)" vlabels="(-2,1,2)"/>
+    <definition>f1(x) = 0.25*(x-2)**2</definition>
+    <graph function="f1" stroke="darkblue" domain="(-0.5,4.5)" cliptobbox="yes"/>
+    <definition>f2(x) = -2*(x-2)**2</definition>
+    <graph function="f2" stroke="lightblue" domain="(-0.5,4.5)" cliptobbox="yes"/>
+    <tangent-line function="f2" point="2" domain="(0.6,3.4)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(2,0)" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(3,-2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>s</m></label>
+    <label anchor="(3,0.5)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>r</m></label>
+  </coordinates>
+</diagram>

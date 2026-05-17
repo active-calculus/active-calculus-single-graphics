@@ -1,0 +1,41 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(360, 240)">
+  <coordinates destination="(5,125,175,235)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f1(x) = (x+4)**2 - 3</definition>
+    <graph function="f1" stroke="blue" domain="(-6,-3)" cliptobbox="yes"/>
+    <definition>f2(x) = 2*(x+3)-2</definition>
+    <graph function="f2" stroke="blue" domain="(-3,0)" cliptobbox="yes"/>
+    <definition>f3(x) = (x-2)**2</definition>
+    <graph function="f3" stroke="blue" domain="(0,3)" cliptobbox="yes"/>
+    <definition>f4(x) = 0.5*(x-3)+1</definition>
+    <graph function="f4" stroke="blue" domain="(3,6)" cliptobbox="yes"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>f</m></label>
+    <label anchor="(5.2,0.2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>x</m></label>
+  </coordinates>
+  <coordinates destination="(5,5,175,115)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)"><m>f'</m></label>
+    <label anchor="(5.2,0.2)" alignment="ne" offset="(2,2)"><m>x</m></label>
+  </coordinates>
+  <coordinates destination="(190,125,355,235)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = 2*cos(pi*x/2)</definition>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>f</m></label>
+    <label anchor="(5.2,0.2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>x</m></label>
+  </coordinates>
+  <coordinates destination="(190,5,355,115)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)"><m>f'</m></label>
+    <label anchor="(5.2,0.2)" alignment="ne" offset="(2,2)"><m>x</m></label>
+  </coordinates>
+</diagram>

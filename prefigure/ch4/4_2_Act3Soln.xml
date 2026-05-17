@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(225,150)">
+  <coordinates destination="(10,10,215,140)"
+               bbox="(-0.5,-2,5.5,2)">
+    <grid spacings="((-0.5,6,5.5),(-2,4,2))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,5)" vlabels="(-1,1,1)"/>
+    <definition>f(x) = 0.5*x**2 - 3*x + 3.5</definition>
+    <riemann-sum function="f" N="5" domain="(1,5)" rule="midpoint" fill="lightgreen"/>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+    <label anchor="(1,1)" alignment="ne" offset="(3,3)" cliptobbox="yes"><m>y = v(t)</m></label>
+  </coordinates>
+</diagram>

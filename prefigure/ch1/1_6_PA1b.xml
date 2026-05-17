@@ -1,0 +1,17 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300, 180)">
+  <coordinates destination="(10,10,140,170)"
+               bbox="(-2,-8,12,8)">
+    <grid spacings="((-2,1,12),(-8,1,8))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(2,4,12)"/>
+    <label anchor="(11.2,0.3)"><m>t</m></label>
+    <label anchor="(0.3,7.2)"><m>y</m></label>
+  </coordinates>
+  <coordinates destination="(160,10,290,170)"
+               bbox="(-2,-8,12,8)">
+    <grid spacings="((-2,1,12),(-8,1,8))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(2,4,12)"/>
+    <label anchor="(11.2,0.3)"><m>t</m></label>
+    <label anchor="(0.3,7.2)"><m>y</m></label>
+  </coordinates>
+</diagram>

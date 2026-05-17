@@ -1,0 +1,19 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-1.25,-1.25,1.25,1.25)">
+    <grid spacings="((-1.25,0.25,1.25),(-1.25,0.25,1.25))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <circle center="(0,0)" radius="1" stroke="blue"/>
+    <definition>f(x) = sqrt(3)*x</definition>
+    <graph function="f" stroke="darkgreen" domain="(0,0.5)"/>
+    <line endpoints="((0.5,0),(0.5,0.5*sqrt(3)))" stroke="darkgreen" thickness="1.5"/>
+    <line endpoints="((0,0),(0.5,0))" stroke="darkgreen" thickness="1.5"/>
+    <point p="(0.5,0.5*sqrt(3))" size="2" fill="red"/>
+    <label anchor="(0.25,0.5)" alignment="nw" offset="(-2,2)"><m>1</m></label>
+    <label anchor="(0.2,0.25)" alignment="se" offset="(0,-1)"><m>\theta</m></label>
+    <label anchor="(0.5,0.5*sqrt(3))" alignment="ne" offset="(2,2)"><m>(x,y)</m></label>
+    <label anchor="(0.54,0.3)" alignment="ne" offset="(1,1)"><m>\sin(\theta)</m></label>
+    <label anchor="(0.27,-0.25)" alignment="n" offset="(2,-1)"><m>\cos(\theta)</m></label>
+  </coordinates>
+</diagram>

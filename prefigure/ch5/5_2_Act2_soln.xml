@@ -1,0 +1,20 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-10,-1,10,1)">
+    <grid spacings="((-10,1,10),(-1,0.1,1))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-5,5,5)" vlabels="(-0.5,0.5,0.5)"/>
+    <definition>f(x) = x/(1+x**2)</definition>
+    <graph function="f" stroke="darkblue" domain="(-9.75,9.75)" cliptobbox="yes"/>
+    <label anchor="(8,0.2)" alignment="ne" offset="(2,2)"><m>f</m></label>
+  </coordinates>
+
+  <coordinates destination="(155,5,295,145)"
+               bbox="(-10,-2.5,10,2.5)">
+    <grid spacings="((-10,1,10),(-2.5,0.25,2.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-5,5,5)" vlabels="(-1.25,1.25,1.25)"/>
+    <definition>F(x) = 0.5*log(1+x**2)</definition>
+    <graph function="F" stroke="darkblue" domain="(-9.95,9.95)" cliptobbox="yes"/>
+    <label anchor="(8,2)" alignment="se" offset="(2,-2)"><m>F</m></label>
+  </coordinates>
+</diagram>

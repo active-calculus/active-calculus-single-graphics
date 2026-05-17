@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-4,-1,2,6)">
+
+    <grid spacings="((-4,1,2),(-1,1,6))"
+          stroke="lightgray"/>
+
+    <axes decorations="no" hlabels="(-3,2,1)" vlabels="(1,2,5)"/>
+
+    <label anchor="(-3.2, 5.3)"><m>f</m></label>
+
+    <definition>f(x) = 2-x</definition>
+    <graph function="f" stroke="blue" domain="(-4,2)"/>
+
+    <point p="(-2, 4)" size="2" fill="white"/>
+  </coordinates>
+</diagram>

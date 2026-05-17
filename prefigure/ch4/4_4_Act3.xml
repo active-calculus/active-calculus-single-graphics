@@ -1,0 +1,17 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(15,15,285,135)"
+               bbox="(-5,-2.5,35,17.5)">
+    <grid spacings="((-5,2.5,35),(-2.5,2.5,17.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,10,30)" vlabels="(0,5,15)"/>
+    <definition>f1(x) = -0.05*x**2 + x + 10</definition>
+    <graph function="f1" stroke="blue" domain="(0,10)"/>
+    <definition>f2(x) = 15</definition>
+    <graph function="f2" stroke="blue" domain="(10,20)"/>
+    <definition>f3(x) = -0.05*x**2 + 2*x - 5</definition>
+    <graph function="f3" stroke="blue" domain="(20,30)"/>
+    <label anchor="(1,15)" alignment="ne" offset="(2,2)">cal/min</label>
+    <label anchor="(30,1)" alignment="ne" offset="(2,2)">min</label>
+    <label anchor="(25,13.5)" alignment="ne" offset="(2,2)"><m>y = c(t)</m></label>
+  </coordinates>
+</diagram>

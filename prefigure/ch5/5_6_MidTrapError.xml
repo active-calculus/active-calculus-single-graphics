@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(0.2,0,1.8,1.6)">
+    <polygon points="((0.5,0),(1.5,0),(1.5,0.59375),(0.5,1.34375))" closed="yes" fill="red" stroke="black"/>
+    <definition>f(x) = 0.5 + 0.375*(x-2)**2</definition>
+    <area-under-curve function="f" domain="(0.5,1.5)" fill="lightred"/>
+    <polygon points="((0.5,0),(1.5,0),(1.5,0.5),(0.5,1.25))" closed="yes" fill="yellow" stroke="black"/>
+    <graph function="f" stroke="blue" domain="(0.3,1.7)" cliptobbox="yes"/>
+    <label anchor="(1,0.5)" alignment="c"><m>M_1</m></label>
+  </coordinates>
+</diagram>

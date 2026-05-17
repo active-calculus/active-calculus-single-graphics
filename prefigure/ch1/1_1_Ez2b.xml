@@ -1,0 +1,14 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-2,-4,14,4)">
+
+    <grid spacings="((-2,1,14),(-4,0.5,4))"
+          stroke="lightgray"/>
+
+    <axes decorations="no" hlabels="(0,2,12)"/>
+
+    <label anchor="(0.5, 3.5)"><m>v</m></label>
+    <label anchor="(13, 0.25)"><m>t</m></label>
+  </coordinates>
+</diagram>

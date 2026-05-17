@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(0,0,2,2)">
+    <label anchor="(1.05,0.05)" alignment="se" offset="(2,-2)"><m>r</m></label>
+    <label anchor="(0.8,0.2)" alignment="sw" offset="(-2,-2)"><m>x</m></label>
+    <label anchor="(0.87,0.24)" alignment="ne" offset="(2,2)"><m>s</m></label>
+    <line endpoints="((0,1),(1,0))" stroke="gray" thickness="1.5"/>
+    <line endpoints="((0,1),(1,2))" stroke="gray" thickness="1.5"/>
+    <line endpoints="((2,1),(1,0))" stroke="gray" thickness="1.5"/>
+    <line endpoints="((2,1),(1,2))" stroke="gray" thickness="1.5"/>
+    <line endpoints="((0.6,0.4),(1.1,0.1))" stroke="blue" thickness="1.5" dash="4 4"/>
+    <line endpoints="((0.6,0.4),(1,0))" stroke="blue" thickness="1.5"/>
+    <line endpoints="((1.1,0.1),(1,0))" stroke="blue" thickness="1.5"/>
+    <point p="(0.6,0.4)" size="2" fill="red"/>
+    <point p="(1.1,0.1)" size="2" fill="red"/>
+  </coordinates>
+</diagram>

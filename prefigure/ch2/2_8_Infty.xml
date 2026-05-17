@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-5,-5,5,5)">
+    <grid spacings="((-5,1,5),(-5,1,5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,1)" vlabels="(0,1,1)"/>
+    <label anchor="(2,0.75)" alignment="ne" offset="(2,2)"><m>f(x)=\frac{1}{x}</m></label>
+    <definition>f(x) = 1/x</definition>
+    <graph function="f" stroke="blue" domain="(0.01,5)" cliptobbox="yes"/>
+    <graph function="f" stroke="blue" domain="(-5.1,-0.01)" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

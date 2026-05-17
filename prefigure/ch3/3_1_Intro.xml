@@ -1,0 +1,29 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-10,2.5,50)">
+    <grid spacings="((-0.5,0.5,2.5),(-10,10,50))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,2)" vlabels="(0,10,40)"/>
+    <definition>f(x) = -16*x**2 + 24*x + 32</definition>
+    <graph function="f" stroke="blue" domain="(0,2.5)" cliptobbox="yes"/>
+    <label anchor="(1.25,40)" alignment="ne" cliptobbox="yes"><m>y=s(t)</m></label>
+    <point p="(0.75,f(0.75))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(0.75,f(0.75))" alignment="nw" offset="(0,3)" cliptobbox="yes"><m>V</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-4,-4,4,4)">
+    <grid spacings="((-4,8,4),(-4,8,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <label anchor="(5.2,0.2)" alignment="ne"><m>x</m></label>
+    <label anchor="(-3,-3)" alignment="ne"><m>y=g(x)</m></label>
+    <definition>f(x) = -0.1*(x-2.5)*x*(x+2)*(x+2) + 0.75</definition>
+    <graph function="f" stroke="blue" domain="(-4,4)" cliptobbox="yes"/>
+    <point p="(-2,f(-2))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(-2,f(-2))" alignment="nw" offset="(6,4)" cliptobbox="yes"><m>(a,g(a))</m></label>
+    <point p="(-0.763086,f(-0.763086))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(-0.763086,f(-0.763086)-0.25)" alignment="sw" offset="(3,-4)" cliptobbox="yes"><m>(b,g(b))</m></label>
+    <point p="(1.63809,f(1.63809))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(1.63809,f(1.63809))" alignment="ne" offset="(2,4)" cliptobbox="yes"><m>(c,g(c))</m></label>
+  </coordinates>
+</diagram>

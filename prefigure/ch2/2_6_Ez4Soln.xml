@@ -1,0 +1,23 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(20,20,130,130)"
+               bbox="(-4,-4,4,4)">
+    <grid spacings="((-4,1,4),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <label anchor="(1,-2)"><m>y = f(x)</m></label>
+    <label anchor="(-4,1)"><m>y = f^{-1}(x)</m></label>
+    <definition>f1(x) = x</definition>
+    <graph function="f1" stroke="gray" domain="(-4,4)" cliptobbox="yes"/>
+    <definition>f2(x) = 2*atan(x-1) - 1</definition>
+    <graph function="f2" stroke="darkblue" domain="(-4,4)" cliptobbox="yes"/>
+    <tangent-line function="f2" point="1" domain="(0,2)" stroke="darkgreen" cliptobbox="yes"/>
+    <definition>f3(x) = tan((x+1)/2) + 1</definition>
+    <graph function="f3" stroke="blue" domain="(-3.75,2)" cliptobbox="yes"/>
+    <point p="(1,f3(1))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(-1,f3(-1))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(-3,f3(-3))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(f3(1),1)" size="2" fill="darkred" cliptobbox="yes"/>
+    <point p="(f3(-1),-1)" size="2" fill="darkred" cliptobbox="yes"/>
+    <point p="(f3(-3),-3)" size="2" fill="darkred" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-0.2,5.5,0.5)">
+    <grid spacings="((-0.5,6,5.5),(-0.2,0.7,0.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = 0.3*exp(-0.3*x)</definition>
+    <area-under-curve function="f" domain="(0,3.5)" fill="lightblue"/>
+    <graph function="f" domain="(-0.5,5.5)" stroke="blue" cliptobbox="yes"/>
+    <label anchor="(0.1,0.4)" alignment="ne" offset="(2,2)"><m>y</m></label>
+    <label anchor="(5,-0.05)" alignment="ne" offset="(2,2)"><m>t</m></label>
+    <label anchor="(3.5,-0.075)" alignment="n" offset="(0,2)"><m>b</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-0.5,-0.2,5.5,0.5)">
+    <grid spacings="((-0.5,6,5.5),(-0.2,0.7,0.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = 0.3*exp(-0.3*x)</definition>
+    <area-under-curve function="f" domain="(0,5.7)" fill="lightblue" cliptobbox="yes"/>
+    <graph function="f" domain="(-0.5,5.5)" stroke="blue" cliptobbox="yes"/>
+    <label anchor="(0.1,0.4)" alignment="ne" offset="(2,2)"><m>y</m></label>
+    <label anchor="(5,-0.075)" alignment="ne" offset="(2,2)"><m>t</m></label>
+    <label anchor="(5,0.05)" alignment="s" offset="(0,0)"><m>\cdots</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,15 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(180,120)">
+  <coordinates destination="(5,5,175,115)"
+               bbox="(0,0,5,4)">
+    <polygon points="((1,1),(4,1),(4,3))" closed="yes" stroke="blue" thickness="1"/>
+    <label anchor="(2.5,0.5)" alignment="n" offset="(0,2)"><m>4000</m></label>
+    <label anchor="(4.1,2)" alignment="e" offset="(2,0)"><m>h</m></label>
+    <label anchor="(2.5,2.05)" alignment="nw" offset="(-2,2)"><m>z</m></label>
+    <label anchor="(1.5,1.05)" alignment="ne" offset="(6,2)"><m>\theta</m></label>
+    <point p="(1,1)" size="2" fill="red"/>
+    <point p="(4,3)" size="2" fill="red"/>
+    <label anchor="(1,1)" alignment="w" offset="(-6,0)">camera</label>
+    <label anchor="(4,3)" alignment="n" offset="(0,5)">rocket</label>
+  </coordinates>
+</diagram>

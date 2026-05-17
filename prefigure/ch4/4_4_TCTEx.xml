@@ -1,0 +1,14 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(15,15,135,135)"
+               bbox="(-1,-1,13,13)">
+    <grid spacings="((-1,1,13),(-1,1,13))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,2,12)" vlabels="(0,2,12)"/>
+    <definition>f(x) = 0.0069*x**3 - 0.125*x**2 + 11.079</definition>
+    <area-under-curve function="f" domain="(4,10)" fill="lightblue"/>
+    <graph function="f" stroke="blue" domain="(0,12)"/>
+    <label anchor="(0.5,12)" alignment="ne" offset="(2,2)">gal/day</label>
+    <label anchor="(12.1,0.5)" alignment="ne" offset="(2,2)">days</label>
+    <label anchor="(8,7)" alignment="ne" offset="(2,2)"><m>y = r(t)</m></label>
+  </coordinates>
+</diagram>

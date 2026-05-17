@@ -1,0 +1,28 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-5,-5,10,10)">
+    <grid spacings="((-5,1,10),(-5,1,10))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-4,4,8)" vlabels="(-4,4,8)"/>
+    <label anchor="(2.5,8.5)"><m>y = e^x</m></label>
+    <label anchor="(0.5,-4.0)"><m>y = \ln(x)</m></label>
+    <definition>f1(x) = exp(x)</definition>
+    <graph function="f1" stroke="darkblue" domain="(-10,10)" cliptobbox="yes"/>
+    <tangent-line function="f1" point="log(0.5)" domain="(log(0.5)-2.1,log(0.5)+2.1)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(log(0.5),f1(log(0.5)))" size="1.5" fill="red" cliptobbox="yes"/>
+    <tangent-line function="f1" point="log(5)" domain="(log(5)-0.4,log(5)+0.4)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(log(5),f1(log(5)))" size="1.5" fill="red" cliptobbox="yes"/>
+    <definition>f2(x) = log(x)</definition>
+    <graph function="f2" stroke="lightblue" domain="(0.001,10)" cliptobbox="yes"/>
+    <tangent-line function="f2" point="0.5" domain="(-0.5,1.5)" stroke="green" cliptobbox="yes"/>
+    <point p="(0.5,f2(0.5))" size="1.5" fill="red" cliptobbox="yes"/>
+    <tangent-line function="f2" point="5" domain="(2.7,7.3)" stroke="green" cliptobbox="yes"/>
+    <point p="(5,f2(5))" size="1.5" fill="red" cliptobbox="yes"/>
+    <definition>f3(x) = x</definition>
+    <graph function="f3" stroke="gray" domain="(-10,10)" cliptobbox="yes"/>
+    <label anchor="(log(0.5),0.5)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>A</m></label>
+    <label anchor="(log(5),5)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>B</m></label>
+    <label anchor="(0.5,log(0.5))" alignment="se" offset="(2,2)" cliptobbox="yes"><m>A'</m></label>
+    <label anchor="(5,log(5))" alignment="ne" offset="(2,3)" cliptobbox="yes"><m>B'</m></label>
+  </coordinates>
+</diagram>

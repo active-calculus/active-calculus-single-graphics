@@ -1,0 +1,24 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-3,-1.5,3,1.5)">
+    <grid spacings="((-3,6,3),(-1.5,3,1.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,2,2)" vlabels="(-1,1,1)"/>
+    <definition>f(x) = exp(-x**2)</definition>
+    <graph function="f" stroke="darkblue" cliptobbox="yes"/>
+    <label anchor="(0,1)" alignment="ne" offset="(2,2)" scale="0.8"><m>f(t)=e^{-t^2}</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-3,-1.5,3,1.5)">
+    <grid spacings="((-3,6,3),(-1.5,3,1.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,2,2)" vlabels="(-1,1,1)"/>
+    <definition>g1(x) = x - 0.3333*x**3 + 0.1*x**5 - 0.02381*x**7 + 0.0046296*x**9 - 0.0007576*x**11 + 0.00010684*x**13 - 0.0000132275*x**15 + 0.0000014589*x**17</definition>
+    <graph function="g1" stroke="blue" domain="(-1.75,1.75)"/>
+    <definition>g2(x) = 0.885</definition>
+    <graph function="g2" stroke="blue" domain="(1.75,3)"/>
+    <definition>g3(x) = -0.885</definition>
+    <graph function="g3" stroke="blue" domain="(-3,-1.75)"/>
+    <label anchor="(0,1)" alignment="ne" offset="(2,2)" scale="0.8"><m>E(x)=\int_0^x e^{-t^2} \, dt</m></label>
+  </coordinates>
+</diagram>

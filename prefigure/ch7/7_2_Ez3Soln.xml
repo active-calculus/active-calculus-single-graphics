@@ -1,0 +1,14 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-1,-1,7,10)">
+    <grid spacings="((-1,1,7),(-1,1,10))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,3,3)" vlabels="(0,3,9)"/>
+    <label anchor="(6.5,0.3)"><m>P</m></label>
+    <label anchor="(0.2,9)"><m>dP/dt</m></label>
+    <definition>f1(x) = x*(6-x)</definition>
+    <graph function="f1" stroke="blue" domain="(-1,7)" cliptobbox="yes"/>
+    <definition>f2(x) = x*(6-x) - 1</definition>
+    <graph function="f2" stroke="darkgreen" domain="(-1,7)" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

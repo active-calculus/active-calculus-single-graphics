@@ -1,0 +1,32 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-4,-4,4,4)">
+    <grid spacings="((-4,1,4),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,1,3)" vlabels="(-3,1,3)"/>
+    <label anchor="(3.9,0)" alignment="nw" offset="(-3,3)"><m>t</m></label>
+    <label anchor="(0,4)" alignment="se" offset="(3,-3)"><m>y</m></label>
+    <transform>
+      <definition>f1(x) = x - 1 - 4*exp(-x)</definition>
+      <graph function="f1" stroke="blue" cliptobbox="yes"/>
+      <definition>f2(x) = x - 1 - 3*exp(-x)</definition>
+      <graph function="f2" stroke="blue" cliptobbox="yes"/>
+      <definition>f3(x) = x - 1 - 2*exp(-x)</definition>
+      <graph function="f3" stroke="blue" cliptobbox="yes"/>
+      <definition>f4(x) = x - 1 - exp(-x)</definition>
+      <graph function="f4" stroke="blue" cliptobbox="yes"/>
+      <definition>f5(x) = x - 1</definition>
+      <graph function="f5" stroke="blue" cliptobbox="yes"/>
+      <definition>f6(x) = x - 1 + exp(-x)</definition>
+      <graph function="f6" stroke="blue" cliptobbox="yes"/>
+      <definition>f7(x) = x - 1 + 2*exp(-x)</definition>
+      <graph function="f7" stroke="blue" cliptobbox="yes"/>
+      <definition>f8(x) = x - 1 + 3*exp(-x)</definition>
+      <graph function="f8" stroke="blue" cliptobbox="yes"/>
+      <definition>f9(x) = x - 1 + 4*exp(-x)</definition>
+      <graph function="f9" stroke="blue" cliptobbox="yes"/>
+    </transform>
+    <definition>f(x,y) = x - y</definition>
+    <slope-field function="f" spacings="((-3,1,3),(-3,1,3))" stroke="darkmagenta"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,36 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,30)">
+  <coordinates destination="(10,10,290,20)"
+               bbox="(-1,-1.5,11,1.5)">
+    <line endpoints="((-1,0),(0,0))" stroke="black" thickness="1.5"/>
+    <line endpoints="((0.1,1),(10.1,1))" stroke="blue"/>
+    <line endpoints="((0.1,-1),(10.1,-1))" stroke="blue"/>
+    <definition>f1(x) = sqrt(10*x)</definition>
+    <graph function="f1" stroke="blue" domain="(0,0.1)"/>
+    <definition>f2(x) = -sqrt(10*x)</definition>
+    <graph function="f2" stroke="blue" domain="(0,0.1)"/>
+    <definition>f3(x) = sqrt(10*(x-10))</definition>
+    <graph function="f3" stroke="blue" domain="(10,10.1)"/>
+    <definition>f4(x) = -sqrt(10*(x-10))</definition>
+    <graph function="f4" stroke="blue" domain="(10,10.1)"/>
+    <definition>f5(x) = sqrt(-10*(x-10.2))</definition>
+    <graph function="f5" stroke="blue" domain="(10.1,10.2)"/>
+    <definition>f6(x) = -sqrt(-10*(x-10.2))</definition>
+    <graph function="f6" stroke="blue" domain="(10.1,10.2)"/>
+    <definition>f7(x) = sqrt(10*(x-4))</definition>
+    <graph function="f7" stroke="red" domain="(4,4.1)"/>
+    <definition>f8(x) = -sqrt(10*(x-4))</definition>
+    <graph function="f8" stroke="red" domain="(4,4.1)"/>
+    <definition>f9(x) = sqrt(10*(x-4.4))</definition>
+    <graph function="f9" stroke="red" domain="(4.4,4.5)"/>
+    <definition>f10(x) = -sqrt(10*(x-4.4))</definition>
+    <graph function="f10" stroke="red" domain="(4.4,4.5)"/>
+    <definition>f11(x) = sqrt(-10*(x-4.6))</definition>
+    <graph function="f11" stroke="red" domain="(4.5,4.5999)"/>
+    <definition>f12(x) = -sqrt(-10*(x-4.6))</definition>
+    <graph function="f12" stroke="red" domain="(4.5,4.5999)"/>
+    <label anchor="(4.25,-1.5)" alignment="s" offset="(0,0)"><m>\triangle x</m></label>
+    <label anchor="(0.25,1.1)" alignment="n" offset="(0,1)"><m>\rho(x)</m></label>
+    <line endpoints="((10.1,0),(11,0))" stroke="black" thickness="1.5"/>
+  </coordinates>
+</diagram>

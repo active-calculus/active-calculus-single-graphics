@@ -1,0 +1,10 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(194,125)">
+  <coordinates destination="(5,5,189,120)"
+               bbox="(-1,-2,7,3)">
+    <grid spacings="((-1,1,7),(-2,1,3))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-1,1,7)" vlabels="(-2,1,3)"/>
+    <label anchor="(7,0)" alignment="nw" offset="(-3,3)"><m>y</m></label>
+    <label anchor="(0,3)" alignment="se" offset="(3,-3)"><m>\frac{dy}{dt}</m></label>
+  </coordinates>
+</diagram>

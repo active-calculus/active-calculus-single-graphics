@@ -1,0 +1,30 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-2.5,4.5,2.5)">
+    <grid spacings="((-0.5,0.5,4.5),(-2.5,0.5,2.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,4)" vlabels="(-2,1,2)"/>
+    <definition>f1(x) = 2*x</definition>
+    <graph function="f1" stroke="blue" domain="(0,1)"/>
+    <definition>f2(x) = 2 - 4*(x-1)</definition>
+    <graph function="f2" stroke="blue" domain="(1,2)"/>
+    <definition>f3(x) = -2</definition>
+    <graph function="f3" stroke="blue" domain="(2,3)"/>
+    <definition>f4(x) = -2 + 2*(x-3)</definition>
+    <graph function="f4" stroke="blue" domain="(3,4)"/>
+    <label anchor="(1.25,2)" alignment="se" offset="(2,-2)"><m>y = f(x)</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-0.5,-2.5,4.5,2.5)">
+    <grid spacings="((-0.5,0.5,4.5),(-2.5,0.5,2.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,4)" vlabels="(-2,1,2)"/>
+    <definition>f5(x) = -sqrt(1-(x-1)**2)</definition>
+    <graph function="f5" stroke="blue" domain="(0.001,1)"/>
+    <definition>f6(x) = -1 + 3*(x-1)</definition>
+    <graph function="f6" stroke="blue" domain="(1,2)"/>
+    <definition>f7(x) = sqrt(4-(x-2)**2)</definition>
+    <graph function="f7" stroke="blue" domain="(2,3.999)"/>
+    <label anchor="(2,2)" alignment="nw" offset="(-2,2)"><m>y = g(x)</m></label>
+  </coordinates>
+</diagram>

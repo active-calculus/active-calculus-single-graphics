@@ -1,0 +1,30 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(250,150)">
+  <coordinates destination="(20,15,245,145)"
+               bbox="(0,0,20,1)">
+    <grid spacings="((0,2,20),(0,0.25,1))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,2,20)" vlabels="(0,0.25,1)"/>
+    <label anchor="(20,0)" alignment="nw" offset="(0,3)"><m>n</m></label>
+    <label anchor="(0,1)" alignment="se" offset="(3,-3)"><m>S_n</m></label>
+    <point p="(1,1.000000)" size="2.5" fill="blue"/>
+    <point p="(2,0.500000)" size="2.5" fill="blue"/>
+    <point p="(3,0.833333)" size="2.5" fill="blue"/>
+    <point p="(4,0.583333)" size="2.5" fill="blue"/>
+    <point p="(5,0.783333)" size="2.5" fill="blue"/>
+    <point p="(6,0.616667)" size="2.5" fill="blue"/>
+    <point p="(7,0.759524)" size="2.5" fill="blue"/>
+    <point p="(8,0.634524)" size="2.5" fill="blue"/>
+    <point p="(9,0.745635)" size="2.5" fill="blue"/>
+    <point p="(10,0.645635)" size="2.5" fill="blue"/>
+    <point p="(11,0.736544)" size="2.5" fill="blue"/>
+    <point p="(12,0.652877)" size="2.5" fill="blue"/>
+    <point p="(13,0.729646)" size="2.5" fill="blue"/>
+    <point p="(14,0.658503)" size="2.5" fill="blue"/>
+    <point p="(15,0.725170)" size="2.5" fill="blue"/>
+    <point p="(16,0.662670)" size="2.5" fill="blue"/>
+    <point p="(17,0.721494)" size="2.5" fill="blue"/>
+    <point p="(18,0.665938)" size="2.5" fill="blue"/>
+    <point p="(19,0.718622)" size="2.5" fill="blue"/>
+    <point p="(20,0.668622)" size="2.5" fill="blue"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,21 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(240,120)">
+  <coordinates destination="(10,10,230,110)"
+               bbox="(-3.5,-2,4.5,2)">
+    <grid spacings="((-3.5,0.5,4.5),(-2,0.5,2))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,1,4)" vlabels="(-1,1,1)"/>
+    <definition>f1(x) = x + 3</definition>
+    <graph function="f1" stroke="blue" domain="(-3,-2)"/>
+    <definition>f2(x) = sqrt(1-(x+2)**2)</definition>
+    <graph function="f2" stroke="blue" domain="(-2,-1.001)"/>
+    <definition>f3(x) = -1 - x</definition>
+    <graph function="f3" stroke="blue" domain="(-1,0)"/>
+    <definition>f4(x) = -1</definition>
+    <graph function="f4" stroke="blue" domain="(0,1)"/>
+    <definition>f5(x) = x - 2</definition>
+    <graph function="f5" stroke="blue" domain="(1,2)"/>
+    <definition>f6(x) = sqrt(1-(x-3)**2)</definition>
+    <graph function="f6" stroke="blue" domain="(2.001,3.999)"/>
+    <label anchor="(3,1)" alignment="nw" offset="(-2,2)"><m>y = g(x)</m></label>
+  </coordinates>
+</diagram>

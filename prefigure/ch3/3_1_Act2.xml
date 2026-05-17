@@ -1,0 +1,11 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-2,-2,3,3)">
+    <grid spacings="((-2,1,3),(-2,1,3))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,2)" vlabels="(0,1,2)"/>
+    <definition>f(x) = -0.25*(x+1)*(x-2)**2</definition>
+    <graph function="f" stroke="blue" domain="(-2,3)" cliptobbox="yes"/>
+    <label anchor="(-1.5,f(-1.5))" alignment="ne" offset="(4,4)" cliptobbox="yes"><m>g''</m></label>
+  </coordinates>
+</diagram>

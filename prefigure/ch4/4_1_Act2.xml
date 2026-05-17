@@ -1,0 +1,13 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-36,2.5,36)">
+    <grid spacings="((-0.5,0.5,2.5),(-36,12,36))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,2)" vlabels="(-24,12,24)"/>
+    <definition>f(x) = 32 - 32*x</definition>
+    <graph function="f" stroke="blue" domain="(0,2)"/>
+    <label anchor="(0.1,32)" alignment="ne" offset="(2,0)">ft/sec</label>
+    <label anchor="(2,2)" alignment="ne" offset="(2,2)">sec</label>
+    <label anchor="(0.625,12)" alignment="ne" offset="(2,2)"><m>v(t)=32-32t</m></label>
+  </coordinates>
+</diagram>

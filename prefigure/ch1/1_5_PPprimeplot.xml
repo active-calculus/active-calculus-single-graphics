@@ -1,0 +1,24 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300, 150)">
+  <coordinates destination="(10,10,130,130)"
+               bbox="(-10,-50,90,450)">
+    <grid spacings="((-10,10,90),(-50,50,450))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,20,80)" vlabels="(0,100,400)"/>
+    <label anchor="(10,350)" alignment="se" offset="(0,-2)"><m>y = P(t)</m></label>
+    <label anchor="(5,410)" alignment="ne" offset="(2,2)"><m>^\circ</m>F</label>
+    <label anchor="(80,20)" alignment="ne" offset="(2,2)">min</label>
+    <definition>f(x) = 400-330*exp(-0.03*x)</definition>
+    <graph function="f" stroke="blue" domain="(0,90)" cliptobbox="yes"/>
+  </coordinates>
+  <coordinates destination="(170,10,280,130)"
+               bbox="(-10,-2,90,18)">
+    <grid spacings="((-10,10,90),(-2,2,18))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,20,80)" vlabels="(0,4,16)"/>
+    <label anchor="(10,10)" alignment="se" offset="(2,-2)"><m>y = P'(t)</m></label>
+    <label anchor="(5,16)" alignment="ne" offset="(2,2)"><m>^\circ</m>F/min</label>
+    <label anchor="(80,1)" alignment="ne" offset="(2,2)">min</label>
+    <definition>f(x) = 400-330*exp(-0.03*x)</definition>
+    <derivative function="f" name="derivative"/>
+    <graph function="derivative" stroke="darkgreen" domain="(0,90)"/>
+  </coordinates>
+</diagram>

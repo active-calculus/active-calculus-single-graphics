@@ -1,0 +1,46 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(450,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-4,-6,4,10)">
+    <grid spacings="((-4,1,4),(-6,2,10))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,5,3)" vlabels="(2,4,4)"/>
+    <definition>f(x) = 0.3333*x**3 - 2*x + 3</definition>
+    <graph function="f" stroke="darkblue" domain="(-2,3)" cliptobbox="yes"/>
+    <graph function="f" stroke="lightblue" domain="(-4,-2)" cliptobbox="yes"/>
+    <graph function="f" stroke="lightblue" domain="(3,4)" cliptobbox="yes"/>
+    <point p="(-2,f(-2))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(-sqrt(2),f(-sqrt(2)))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(sqrt(2),f(sqrt(2)))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(3,f(3))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(3,4)" alignment="se" offset="(2,-2)" cliptobbox="yes"><m>g</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-4,-6,4,10)">
+    <grid spacings="((-4,1,4),(-6,2,10))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,4,2)" vlabels="(2,4,4)"/>
+    <definition>f(x) = 0.3333*x**3 - 2*x + 3</definition>
+    <graph function="f" stroke="darkblue" domain="(-2,2)" cliptobbox="yes"/>
+    <graph function="f" stroke="lightblue" domain="(-4,-2)" cliptobbox="yes"/>
+    <graph function="f" stroke="lightblue" domain="(2,4)" cliptobbox="yes"/>
+    <point p="(-2,f(-2))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(-sqrt(2),f(-sqrt(2)))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(sqrt(2),f(sqrt(2)))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(2,f(2))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(3,4)" alignment="se" offset="(2,-2)" cliptobbox="yes"><m>g</m></label>
+  </coordinates>
+
+  <coordinates destination="(310,10,440,140)"
+               bbox="(-4,-6,4,10)">
+    <grid spacings="((-4,1,4),(-6,2,10))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,3,1)" vlabels="(2,4,4)"/>
+    <definition>f(x) = 0.3333*x**3 - 2*x + 3</definition>
+    <graph function="f" stroke="darkblue" domain="(-2,1)" cliptobbox="yes"/>
+    <graph function="f" stroke="lightblue" domain="(-4,-2)" cliptobbox="yes"/>
+    <graph function="f" stroke="lightblue" domain="(1,4)" cliptobbox="yes"/>
+    <point p="(-2,f(-2))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(-sqrt(2),f(-sqrt(2)))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(1,f(1))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(3,4)" alignment="se" offset="(2,-2)" cliptobbox="yes"><m>g</m></label>
+  </coordinates>
+</diagram>

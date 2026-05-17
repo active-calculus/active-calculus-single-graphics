@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(143,143)">
+  <coordinates destination="(15,15,135,135)"
+               bbox="(0,-3,120,5)">
+    <grid spacings="((0,15,120),(-3,1,5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,30,120)" vlabels="(-3,1,5)"/>
+    <label anchor="(120,0)" alignment="nw" offset="(-3,3)"><m>T</m></label>
+    <label anchor="(0,5)" alignment="se" offset="(3,-3)"><m>\displaystyle\frac{dT}{dt}</m></label>
+    <definition>f(x) = -0.06667*x + 5</definition>
+    <graph function="f" stroke="blue" domain="(0,120)"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,23 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(250,150)">
+  <coordinates destination="(20,15,245,145)"
+               bbox="(1,0,10,1)">
+    <grid spacings="((1,1,10),(0,0.25,1))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,10)" vlabels="(0,0.25,1)"/>
+    <definition>f(n) = 1/n**2</definition>
+    <riemann-sum function="f" N="9" domain="(1,10)" rule="right" stroke="black" fill="lightgreen"/>
+    <graph function="f" stroke="blue"/>
+    <point p="(1,f(1))" size="2.5" fill="blue"/>
+    <point p="(2,f(2))" size="2.5" fill="blue"/>
+    <point p="(3,f(3))" size="2.5" fill="blue"/>
+    <point p="(4,f(4))" size="2.5" fill="blue"/>
+    <point p="(5,f(5))" size="2.5" fill="blue"/>
+    <point p="(6,f(6))" size="2.5" fill="blue"/>
+    <point p="(7,f(7))" size="2.5" fill="blue"/>
+    <point p="(8,f(8))" size="2.5" fill="blue"/>
+    <point p="(9,f(9))" size="2.5" fill="blue"/>
+    <point p="(10,f(10))" size="2.5" fill="blue"/>
+    <label anchor="(10,0)" alignment="nw" offset="(0,3)"><m>n</m></label>
+    <label anchor="(1,1)" alignment="se" offset="(5,-2)"><m>a_n</m></label>
+  </coordinates>
+</diagram>

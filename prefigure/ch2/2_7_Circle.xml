@@ -1,0 +1,16 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-5,-5,5,5)">
+    <grid spacings="((-5,1,5),(-5,1,5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <label anchor="(1,4.2)" alignment="ne" offset="(2,2)"><m>m_t = -\frac{a}{b}</m></label>
+    <circle center="(0,0)" radius="4" stroke="blue"/>
+    <definition>f(x) = sqrt(16-x**2)</definition>
+    <tangent-line function="f" point="2.4" domain="(0.6,4.2)" stroke="darkgreen" cliptobbox="yes"/>
+    <line endpoints="((0,0),(2.4,f(2.4)))" stroke="gray" thickness="1.25" cliptobbox="yes"/>
+    <point p="(2.4,f(2.4))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(2.4,f(2.4))" alignment="ne" offset="(2,0)" cliptobbox="yes"><m>(a,b)</m></label>
+    <label anchor="(1,0.5)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>m_r = \frac{b}{a}</m></label>
+  </coordinates>
+</diagram>

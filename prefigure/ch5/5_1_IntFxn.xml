@@ -1,0 +1,31 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1.5708,-2,7.854,2)">
+    <grid spacings="((-1.5708,1.5708,7.854),(-2,0.5,2))" stroke="lightgray"/>
+    <axes decorations="no" vlabels="(-1,1,1)"/>
+    <definition>f(x) = cos(x) + 0.5</definition>
+    <area-under-curve function="f" domain="(0,1.25)" fill="lightblue"/>
+    <graph function="f" stroke="darkblue" cliptobbox="yes"/>
+    <point p="(1.25,f(1.25))" size="2" fill="blue"/>
+    <label anchor="(6.2832,1.5)" alignment="n" offset="(0,2)"><m>y=f(t)</m></label>
+    <label anchor="(3.14159,0.1)" alignment="n" offset="(0,2)"><m>\pi</m></label>
+    <label anchor="(6.2832,0.1)" alignment="n" offset="(0,2)"><m>2\pi</m></label>
+    <label anchor="(1.25,-0.1)" alignment="s" offset="(0,-2)"><m>x</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-1.5708,-0.5,7.854,3.5)">
+    <grid spacings="((-1.5708,1.5708,7.854),(-0.5,0.5,3.5))" stroke="lightgray"/>
+    <axes decorations="no" vlabels="(1,2,3)"/>
+    <definition>g(x) = sin(x) + 0.5*x</definition>
+    <definition>gval = g(1.25)</definition>
+    <graph function="g" stroke="blue" domain="(-1.5708,6.2832)" cliptobbox="yes"/>
+    <line endpoints="((1.25,0),(1.25,gval))" stroke="darkgray"/>
+    <point p="(1.25,gval)" size="2" fill="cyan"/>
+    <label anchor="(3.14159,0.1)" alignment="n" offset="(0,2)"><m>\pi</m></label>
+    <label anchor="(6.2832,0.1)" alignment="n" offset="(0,2)"><m>2\pi</m></label>
+    <label anchor="(1.25,-0.1)" alignment="s" offset="(0,-2)"><m>x</m></label>
+    <label anchor="(1,0.787)" alignment="e" offset="(4,0)"><m>A(x)</m></label>
+  </coordinates>
+</diagram>

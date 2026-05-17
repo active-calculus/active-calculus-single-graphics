@@ -1,0 +1,29 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,131)">
+  <coordinates destination="(5,5,145,126)"
+               bbox="(0,0,4,3.46410)">
+    <path start="(0,0)" closed="yes" stroke="black">
+      <lineto point="(4,0)"/>
+      <lineto point="(2,3.46410)"/>
+    </path>
+    <line endpoints="((0,0),(4,0))" stroke="black"/>
+    <point p="(0,0)" size="2.5" fill="black"/>
+    <point p="(1,0)" size="2.5" fill="black"/>
+    <point p="(2,0)" size="2.5" fill="black"/>
+    <point p="(3,0)" size="2.5" fill="black"/>
+    <point p="(4,0)" size="2.5" fill="black"/>
+    <line endpoints="((0.5,0.86603),(3.5,0.86603))" stroke="black"/>
+    <point p="(0.5,0.86603)" size="2.5" fill="black"/>
+    <point p="(1.5,0.86603)" size="2.5" fill="black"/>
+    <point p="(2.5,0.86603)" size="2.5" fill="black"/>
+    <point p="(3.5,0.86603)" size="2.5" fill="black"/>
+    <line endpoints="((1.0,1.73205),(3.0,1.73205))" stroke="black"/>
+    <point p="(1.0,1.73205)" size="2.5" fill="black"/>
+    <point p="(2.0,1.73205)" size="2.5" fill="black"/>
+    <point p="(3.0,1.73205)" size="2.5" fill="black"/>
+    <line endpoints="((1.5,2.59808),(2.5,2.59808))" stroke="black"/>
+    <point p="(1.5,2.59808)" size="2.5" fill="black"/>
+    <point p="(2.5,2.59808)" size="2.5" fill="black"/>
+    <point p="(2.0,3.46410)" size="2.5" fill="black"/>
+  </coordinates>
+</diagram>

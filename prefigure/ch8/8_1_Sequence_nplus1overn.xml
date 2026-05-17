@@ -1,0 +1,31 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(250,150)">
+  <coordinates destination="(20,15,245,145)"
+               bbox="(0,0,20,2)">
+    <grid spacings="((0,2,20),(0,0.25,2))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,2,20)" vlabels="(0,0.5,2)"/>
+    <definition>f(n) = (n+1)/n</definition>
+    <label anchor="(20,0)" alignment="nw" offset="(0,3)"><m>n</m></label>
+    <label anchor="(0,2)" alignment="se" offset="(3,-3)"><m>s_n</m></label>
+    <point p="(1,f(1))" size="2.5" fill="blue"/>
+    <point p="(2,f(2))" size="2.5" fill="blue"/>
+    <point p="(3,f(3))" size="2.5" fill="blue"/>
+    <point p="(4,f(4))" size="2.5" fill="blue"/>
+    <point p="(5,f(5))" size="2.5" fill="blue"/>
+    <point p="(6,f(6))" size="2.5" fill="blue"/>
+    <point p="(7,f(7))" size="2.5" fill="blue"/>
+    <point p="(8,f(8))" size="2.5" fill="blue"/>
+    <point p="(9,f(9))" size="2.5" fill="blue"/>
+    <point p="(10,f(10))" size="2.5" fill="blue"/>
+    <point p="(11,f(11))" size="2.5" fill="blue"/>
+    <point p="(12,f(12))" size="2.5" fill="blue"/>
+    <point p="(13,f(13))" size="2.5" fill="blue"/>
+    <point p="(14,f(14))" size="2.5" fill="blue"/>
+    <point p="(15,f(15))" size="2.5" fill="blue"/>
+    <point p="(16,f(16))" size="2.5" fill="blue"/>
+    <point p="(17,f(17))" size="2.5" fill="blue"/>
+    <point p="(18,f(18))" size="2.5" fill="blue"/>
+    <point p="(19,f(19))" size="2.5" fill="blue"/>
+    <point p="(20,f(20))" size="2.5" fill="blue"/>
+  </coordinates>
+</diagram>

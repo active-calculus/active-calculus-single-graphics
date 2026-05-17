@@ -1,0 +1,11 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-4,-4,4,4)">
+    <grid spacings="((-4,1,4),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,4,2)" vlabels="(0,4,2)"/>
+    <definition>f(x) = 6/pi*atan(2*x)</definition>
+    <graph function="f" stroke="blue" domain="(-4,4)" cliptobbox="yes"/>
+    <label anchor="(2,2.8)" alignment="ne" cliptobbox="yes"><m>h'</m></label>
+  </coordinates>
+</diagram>

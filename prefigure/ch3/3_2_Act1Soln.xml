@@ -1,0 +1,28 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1.5,-1,1.5,1)">
+    <grid spacings="((-1.5,3,1.5),(-1,2,1))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = x**3 + x</definition>
+    <graph function="f" stroke="blue" domain="(-2.5,2.5)" cliptobbox="yes"/>
+    <label anchor="(0.8,0.75)" alignment="ne" cliptobbox="yes"><m>p</m></label>
+    <point p="(0,f(0))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-1.5,-1,1.5,1)">
+    <grid spacings="((-1.5,3,1.5),(-1,2,1))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <line endpoints="((-1/sqrt(3),-0.05),(-1/sqrt(3),0.05))" stroke="black"/>
+    <line endpoints="((1/sqrt(3),-0.05),(1/sqrt(3),0.05))" stroke="black"/>
+    <definition>f(x) = x**3 - x</definition>
+    <graph function="f" stroke="blue" domain="(-2.5,2.5)" cliptobbox="yes"/>
+    <label anchor="(1,0.75)" alignment="ne" cliptobbox="yes"><m>p</m></label>
+    <label anchor="(-1/sqrt(3),-0.1)" alignment="s" offset="(-4,-1)" cliptobbox="yes"><m>-\sqrt{\frac{a}{3}}</m></label>
+    <label anchor="(1/sqrt(3),-0.1)" alignment="s" offset="(0,-1)" cliptobbox="yes"><m>\sqrt{\frac{a}{3}}</m></label>
+    <point p="(0,f(0))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(-1/sqrt(3),f(-1/sqrt(3)))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(1/sqrt(3),f(1/sqrt(3)))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

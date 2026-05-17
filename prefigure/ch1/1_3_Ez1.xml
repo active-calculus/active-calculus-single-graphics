@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-5,-5,5,5)">
+
+    <grid spacings="((-5,1,5),(-5,1,5))"
+          stroke="lightgray"/>
+
+    <axes decorations="no" hlabels="(-4,4,4)" vlabels="(-4,4,4)"/>
+
+    <label anchor="(4.5, 0.3)"><m>x</m></label>
+    <label anchor="(0.3, 4.5)"><m>y</m></label>
+    <label anchor="(4, 4)"><m>f</m></label>
+
+    <definition>f(x) = 0.1*x*(x+2)*(x-3) + 2</definition>
+    <graph function="f" stroke="blue" domain="(-5,5)" cliptobbox="yes"/>
+  </coordinates>
+</diagram>
