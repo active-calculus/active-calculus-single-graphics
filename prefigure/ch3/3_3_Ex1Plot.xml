@@ -1,0 +1,16 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(15,15,135,135)"
+               bbox="(-5,0,25,30)">
+    <grid spacings="((-5,5,25),(0,5,30))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,5,20)" vlabels="(0,5,25)"/>
+    <label anchor="(18,13)" alignment="ne"><m>y=A(x)</m></label>
+    <definition>f(x) = 0.04811252245*x**2 + (5.0-0.25*x)**2</definition>
+    <graph function="f" stroke="blue" domain="(0,20)" cliptobbox="yes"/>
+    <graph function="f" stroke="lightblue" domain="(-5,0)" cliptobbox="yes"/>
+    <graph function="f" stroke="lightblue" domain="(20,25)" cliptobbox="yes"/>
+    <point p="(0,f(0))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(20,f(20))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(11.3007,f(11.3007))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

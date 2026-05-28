@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(120, 180)">
+  <coordinates destination="(15,15,105,165)"
+               bbox="(0,44,1.22,68)">
+
+    <grid spacings="((0,0.2,1.22),(44,2,68))"
+          stroke="lightgray"/>
+
+    <axes decorations="no" hlabels="(0.4,0.4,1.22)" vlabels="(48,8,68)"/>
+
+    <label anchor="(0.06, 66)">feet</label>
+    <label anchor="(1.0, 45)">sec</label>
+    <label anchor="(1.1, 64.5)"><m>s</m></label>
+    <label anchor="(0.43, 57.5)"><m>A</m></label>
+    <label anchor="(0.83, 62)"><m>B</m></label>
+
+    <definition>f(x) = 64-16*(x-1)*(x-1)</definition>
+    <graph function="f" stroke="blue" domain="(0,1.2)"/>
+
+    <definition>g(x) = f(0.4) + (f(0.8)-f(0.4))/(0.8-0.4)*(x-0.4)</definition>
+    <graph function="g" stroke="darkgreen" domain="(0.2,1.0)"/>
+
+    <point p="(0.4, f(0.4))" size="2" fill="red"/>
+    <point p="(0.8, f(0.8))" size="2" fill="red"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,17 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-3,-3,3,3)">
+    <grid spacings="((-3,0.5,3),(-3,0.5,3))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,1,2)" vlabels="(-2,1,2)"/>
+    <label anchor="(1.1,2)" alignment="ne"><m>y = h(x)</m></label>
+    <definition>f1(x) = (2*(x+2.5))**3 - 2</definition>
+    <graph function="f1" stroke="blue" domain="(-3,-2)"/>
+    <definition>f2(x) = -0.5*(x+2) - 1</definition>
+    <graph function="f2" stroke="blue" domain="(-2,0)"/>
+    <definition>f3(x) = -4*(x-1)**2 + 2</definition>
+    <graph function="f3" stroke="blue" domain="(0,1.5)"/>
+    <definition>f4(x) = -1*(x-1.5)**2 + 1</definition>
+    <graph function="f4" stroke="blue" domain="(1.5,3)"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,80 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(480, 120)">
+  <coordinates destination="(5,5,115,115)"
+               bbox="(-1,-1,5,5)">
+
+    <axes decorations="no"/>
+
+    <label anchor="(4.5, 0.3)"><m>x</m></label>
+    <label anchor="(0.3, 4.5)"><m>y</m></label>
+    <label anchor="(4, 4)"><m>f</m></label>
+    <label anchor="(0.8, -0.7)"><m>a</m></label>
+
+    <definition>f(x) = 0.1*x*(x+2)*(x-3) + 2</definition>
+    <graph function="f" stroke="blue" domain="(-1,5)" cliptobbox="yes"/>
+
+    <definition>g(x) = f(1) + (f(2.5)-f(1))/(2.5-1)*(x-1)</definition>
+    <graph function="g" stroke="magenta" domain="(0.2,3.3)" cliptobbox="yes"/>
+
+    <point p="(2.5, f(2.5))" size="2" fill="magenta" cliptobbox="yes"/>
+    <point p="(1, f(1))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(125,5,235,115)"
+               bbox="(-1,-1,5,5)">
+
+    <axes decorations="no"/>
+
+    <label anchor="(4.5, 0.3)"><m>x</m></label>
+    <label anchor="(0.3, 4.5)"><m>y</m></label>
+    <label anchor="(4, 4)"><m>f</m></label>
+    <label anchor="(0.8, -0.7)"><m>a</m></label>
+
+    <definition>f(x) = 0.1*x*(x+2)*(x-3) + 2</definition>
+    <graph function="f" stroke="blue" domain="(-1,5)" cliptobbox="yes"/>
+
+    <definition>g(x) = f(1) + (f(2)-f(1))/(2-1)*(x-1)</definition>
+    <graph function="g" stroke="magenta" domain="(0.2,2.8)" cliptobbox="yes"/>
+
+    <point p="(2, f(2))" size="2" fill="magenta" cliptobbox="yes"/>
+    <point p="(1, f(1))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(245,5,355,115)"
+               bbox="(-1,-1,5,5)">
+
+    <axes decorations="no"/>
+
+    <label anchor="(4.5, 0.3)"><m>x</m></label>
+    <label anchor="(0.3, 4.5)"><m>y</m></label>
+    <label anchor="(4, 4)"><m>f</m></label>
+    <label anchor="(0.8, -0.7)"><m>a</m></label>
+
+    <definition>f(x) = 0.1*x*(x+2)*(x-3) + 2</definition>
+    <graph function="f" stroke="blue" domain="(-1,5)" cliptobbox="yes"/>
+
+    <definition>g(x) = f(1) + (f(1.5)-f(1))/(1.5-1)*(x-1)</definition>
+    <graph function="g" stroke="magenta" domain="(0.2,2.3)" cliptobbox="yes"/>
+
+    <point p="(1.5, f(1.5))" size="2" fill="magenta" cliptobbox="yes"/>
+    <point p="(1, f(1))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(365,5,475,115)"
+               bbox="(-1,-1,5,5)">
+
+    <axes decorations="no"/>
+
+    <label anchor="(4.5, 0.3)"><m>x</m></label>
+    <label anchor="(0.3, 4.5)"><m>y</m></label>
+    <label anchor="(4, 4)"><m>f</m></label>
+    <label anchor="(0.8, -0.7)"><m>a</m></label>
+
+    <definition>f(x) = 0.1*x*(x+2)*(x-3) + 2</definition>
+    <graph function="f" stroke="blue" domain="(-1,5)" cliptobbox="yes"/>
+
+    <tangent-line function="f" point="1" domain="(-0.2,2.2)" stroke="darkgreen" cliptobbox="yes"/>
+
+    <point p="(1, f(1))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

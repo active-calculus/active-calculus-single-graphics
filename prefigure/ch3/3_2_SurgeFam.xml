@@ -1,0 +1,21 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(5,5,295,145)"
+               bbox="(-1,-2,7,2)">
+    <line endpoints="((-1,0),(7,0))" stroke="black" thickness="1.5"/>
+    <line endpoints="((0,-2),(0,2))" stroke="black" thickness="1.5"/>
+    <definition>f(x) = 3*x*exp(-0.75*x)</definition>
+    <graph function="f" stroke="blue" domain="(-1,7)" cliptobbox="yes"/>
+    <line endpoints="((4/3,-0.1),(4/3,0.1))" stroke="black" thickness="1.5" cliptobbox="yes"/>
+    <label anchor="(4/3,-0.25)" alignment="s" offset="(0,-2)" cliptobbox="yes"><m>\frac{1}{b}</m></label>
+    <point p="(4/3,f(4/3))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(4/3,f(4/3))" alignment="n" offset="(0,4)" cliptobbox="yes">global max</label>
+    <line endpoints="((-0.1,4*exp(-1)),(0.1,4*exp(-1)))" stroke="black" thickness="1.5" cliptobbox="yes"/>
+    <label anchor="(-0.2,4*exp(-1))" alignment="w" offset="(-2,0)" cliptobbox="yes"><m>\frac{a}{b}e^{-1}</m></label>
+    <line endpoints="((8/3,-0.1),(8/3,0.1))" stroke="black" thickness="1.5" cliptobbox="yes"/>
+    <label anchor="(8/3,-0.25)" alignment="s" offset="(0,-2)" cliptobbox="yes"><m>\frac{2}{b}</m></label>
+    <point p="(8/3,f(8/3))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(8/3,f(8/3))" alignment="ne" offset="(2,2)" cliptobbox="yes">inflection pt</label>
+    <label anchor="(5,0.5)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>g(x) = axe^{-bx}</m></label>
+  </coordinates>
+</diagram>

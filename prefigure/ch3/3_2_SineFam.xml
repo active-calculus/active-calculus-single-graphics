@@ -1,0 +1,23 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(240,180)">
+  <coordinates destination="(5,5,235,175)"
+               bbox="(-4,-2,4,8)">
+    <line endpoints="((-4,0),(4,0))" stroke="black" thickness="1.5"/>
+    <line endpoints="((0,-2),(0,8))" stroke="black" thickness="1.5"/>
+    <definition>f(x) = 2*sin(3*(x-pi/6)) + 5</definition>
+    <graph function="f" stroke="darkblue" domain="(pi/6,5*pi/6)" cliptobbox="yes"/>
+    <graph function="f" stroke="lightblue" domain="(-4,pi/6)" cliptobbox="yes"/>
+    <graph function="f" stroke="lightblue" domain="(5*pi/6,4)" cliptobbox="yes"/>
+    <line endpoints="((pi/6,-0.1),(pi/6,0.1))" stroke="black" thickness="1.5" cliptobbox="yes"/>
+    <label anchor="(pi/6,-0.5)" alignment="s" offset="(0,-2)" cliptobbox="yes"><m>c</m></label>
+    <point p="(pi/6,f(pi/6))" size="2" fill="red" cliptobbox="yes"/>
+    <line endpoints="((5*pi/6,-0.1),(5*pi/6,0.1))" stroke="black" thickness="1.5" cliptobbox="yes"/>
+    <label anchor="(5*pi/6,-0.25)" alignment="s" offset="(0,-2)" cliptobbox="yes"><m>c + \frac{2\pi}{b}</m></label>
+    <point p="(5*pi/6,f(5*pi/6))" size="2" fill="red" cliptobbox="yes"/>
+    <line endpoints="((-0.1,5),(0.1,5))" stroke="black" thickness="1.5" cliptobbox="yes"/>
+    <label anchor="(-0.1,5)" alignment="w" offset="(-2,0)" cliptobbox="yes"><m>d</m></label>
+    <line endpoints="((-0.1,7),(0.1,7))" stroke="black" thickness="1.5" cliptobbox="yes"/>
+    <label anchor="(-0.1,7.25)" alignment="w" offset="(-2,0)" cliptobbox="yes"><m>d+a</m></label>
+    <label anchor="(-4,2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>f(t) = a\sin(b(t-c)) + d</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(450,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-2,-4,2,4)">
+    <grid spacings="((-2,0.5,2),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,2,2)"/>
+    <label anchor="(1.8,0.2)" alignment="ne"><m>x</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-2,-4,2,4)">
+    <grid spacings="((-2,0.5,2),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,2,2)" vlabels="(2,2,3)"/>
+    <label anchor="(1.8,0.2)" alignment="ne"><m>x</m></label>
+    <definition>f(x) = (x-1)**2*(x+1)</definition>
+    <graph function="f" stroke="blue" domain="(-2,2)" cliptobbox="yes"/>
+    <label anchor="(1.6,2)" alignment="ne" cliptobbox="yes"><m>f'</m></label>
+  </coordinates>
+
+  <coordinates destination="(310,10,440,140)"
+               bbox="(-2,-4,2,4)">
+    <grid spacings="((-2,0.5,2),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,2,2)"/>
+    <label anchor="(1.8,0.2)" alignment="ne"><m>x</m></label>
+  </coordinates>
+</diagram>

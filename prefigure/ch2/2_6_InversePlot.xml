@@ -1,0 +1,21 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-4,-4,4,4)">
+    <grid spacings="((-4,0.5,4),(-4,0.5,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,2,2)" vlabels="(-2,2,2)"/>
+    <label anchor="(1.0,3.5)"><m>y = f(x)</m></label>
+    <label anchor="(0.4,-3)"><m>y = f^{-1}(x)</m></label>
+    <definition>f1(x) = 2**x</definition>
+    <graph function="f1" stroke="darkblue" domain="(-4,4)" cliptobbox="yes"/>
+    <definition>f2(x) = log(x)/log(2)</definition>
+    <graph function="f2" stroke="lightblue" domain="(0.05,4)" cliptobbox="yes"/>
+    <definition>f3(x) = x</definition>
+    <graph function="f3" stroke="darkgray" domain="(-4,4)" cliptobbox="yes"/>
+    <point p="(-1,0.5)" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(0.5,-1)" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(-1,0.5)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>(-1,\frac{1}{2})</m></label>
+    <label anchor="(0.5,-1)" alignment="se" offset="(2,-2)" cliptobbox="yes"><m>(\frac{1}{2},-1)</m></label>
+    <label anchor="(-3,-3.5)" alignment="e" offset="(2,0)" cliptobbox="yes"><m>y=x</m></label>
+  </coordinates>
+</diagram>

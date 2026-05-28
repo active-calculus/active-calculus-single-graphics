@@ -1,0 +1,21 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(225,150)">
+  <coordinates destination="(10,10,215,140)"
+               bbox="(-60,-30,60,5)">
+    <grid spacings="((-60,120,60),(-30,35,5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <polygon points="((-45,0),(45,0),(30,-25),(-30,-25))" closed="yes" stroke="darkblue"/>
+    <line endpoints="((5,-5),(5,-15))" stroke="red"/>
+    <line endpoints="((-42,-5),(42,-5))" stroke="darkblue" dash="2 2"/>
+    <polygon points="((36,-14),(36,-16),(-36,-16),(-36,-14))" closed="yes" stroke="red"/>
+    <point p="(30,-25)" size="1.5" fill="blue"/>
+    <label anchor="(5,-10)" alignment="e" offset="(3,0)" scale="0.8"><m>x-5</m></label>
+    <label anchor="(36,-15)" alignment="e" offset="(3,0)" scale="0.8"><m>\triangle x</m></label>
+    <label anchor="(0,-15)" alignment="w" offset="(-6,0)" scale="0.8"><m>x</m></label>
+    <label anchor="(30,-25)" alignment="se" offset="(2,-2)"><m>(25,30)</m></label>
+    <label anchor="(45,0.5)" alignment="ne" offset="(2,2)"><m>45</m></label>
+    <label anchor="(39,-10)" alignment="e" offset="(2,0)"><m>y = f(x)</m></label>
+    <label anchor="(2,-28)" alignment="e" offset="(2,0)"><m>x^+</m></label>
+    <label anchor="(51,-0.5)" alignment="se" offset="(2,-2)"><m>y^+</m></label>
+  </coordinates>
+</diagram>

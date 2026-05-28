@@ -1,0 +1,16 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(1.5,-2.5,4.5,0.5)">
+    <grid spacings="((1.5,0.5,4.5),(-2.5,0.5,0.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(2,1,4)" vlabels="(-2,1,0)"/>
+    <definition>f1(x) = 2*(x - 3)*((x - 3)**2 - 1) - 1</definition>
+    <graph function="f1" stroke="blue" domain="(1.5,4.5)" cliptobbox="yes"/>
+    <definition>f2(x) = -2*x + 5</definition>
+    <graph function="f2" stroke="darkgreen" domain="(1.5,4.5)" cliptobbox="yes"/>
+    <point p="(3,-1)" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(2,-1)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>y = p(x)</m></label>
+    <label anchor="(3.25,-2)" alignment="nw" offset="(2,2)" cliptobbox="yes"><m>y = L(x)</m></label>
+    <label anchor="(3,-1)" alignment="nw" offset="(-4,4)" cliptobbox="yes"><m>(3,-1)</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(180,180)">
+  <coordinates destination="(20,20,160,160)"
+               bbox="(-4,-4,10,10)">
+    <grid spacings="((-4,1,10),(-4,1,10))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <label anchor="(7,3)" alignment="ne" offset="(2,2)"><m>m = g'(b)</m></label>
+    <label anchor="(-3.9,4.25)"><m>y = f(x)</m></label>
+    <label anchor="(2,-3)"><m>y = g(x)</m></label>
+    <definition>f1(x) = x</definition>
+    <graph function="f1" stroke="gray" domain="(-4,10)" cliptobbox="yes"/>
+    <definition>f2(x) = 0.25*x**3 + 4</definition>
+    <graph function="f2" stroke="darkblue" domain="(-4,10)" cliptobbox="yes"/>
+    <tangent-line function="f2" point="2" domain="(1,3)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(2,f2(2))" size="1.5" fill="red" cliptobbox="yes"/>
+    <definition>f3(x) = (4*x-16)**0.33</definition>
+    <graph function="f3" stroke="lightblue" domain="(4,10)" cliptobbox="yes"/>
+    <tangent-line function="f3" point="6" domain="(3,9)" stroke="green" cliptobbox="yes"/>
+    <point p="(6,f3(6))" size="1.5" fill="red" cliptobbox="yes"/>
+    <definition>f4(x) = -1*(16-4*x)**0.33</definition>
+    <graph function="f4" stroke="lightblue" domain="(-4,3.9999)" cliptobbox="yes"/>
+    <label anchor="(2,6)" alignment="se" offset="(2,-2)" cliptobbox="yes"><m>(a,b)</m></label>
+    <label anchor="(3,9)" alignment="se" offset="(2,-2)" cliptobbox="yes"><m>m = f'(a)</m></label>
+    <label anchor="(6,2)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>(b,a)</m></label>
+  </coordinates>
+</diagram>

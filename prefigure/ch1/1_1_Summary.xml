@@ -1,0 +1,23 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1,-1,5,5)">
+
+    <axes decorations="no"/>
+
+    <label anchor="(4.5, -0.5)"><m>t</m></label>
+    <label anchor="(0.3, 4.5)"><m>s</m></label>
+    <label anchor="(0.1, 1.2)"><m>(a,s(a))</m></label>
+    <label anchor="(3.9, 2.25)"><m>(b,s(b))</m></label>
+    <label anchor="(1.1, 2.9)"><m>m = \frac{s(b)-s(a)}{b-a}</m></label>
+
+    <definition>f(x) = 0.1*x*(x+2)*(x-4) + 3</definition>
+    <graph function="f" stroke="blue" domain="(-1,5)" cliptobbox="yes"/>
+
+    <definition>g(x) = f(1) + (f(4)-f(1))/(4-1)*(x-1)</definition>
+    <graph function="g" stroke="darkgreen" domain="(0.2,4.8)" cliptobbox="yes"/>
+
+    <point p="(1, f(1))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(4, f(4))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

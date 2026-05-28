@@ -1,0 +1,35 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(450,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-5,-5,10,10)">
+    <grid spacings="((-5,15,10),(-5,15,10))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-4,4,8)" vlabels="(-4,4,8)"/>
+    <label anchor="(2.5,8.5)"><m>y = e^x</m></label>
+    <label anchor="(0.5,-4.0)"><m>y = \ln(x)</m></label>
+    <definition>f1(x) = exp(x)</definition>
+    <graph function="f1" stroke="darkblue" domain="(-5,10)" cliptobbox="yes"/>
+    <definition>f2(x) = log(x)</definition>
+    <graph function="f2" stroke="lightblue" domain="(0.001,10)" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-6,-96,6,96)">
+    <grid spacings="((-6,12,6),(-96,192,96))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,2,2)" vlabels="(-64,64,64)"/>
+    <label anchor="(-3.75,32)"><m>y = f(x)</m></label>
+    <label anchor="(-3.75,-90)"><m>y = g(x)</m></label>
+    <definition>f1(x) = x**3 - 16*x</definition>
+    <graph function="f1" stroke="darkblue" domain="(-8,8)" cliptobbox="yes"/>
+    <definition>f2(x) = x**4 - 16*x**2 - 8</definition>
+    <graph function="f2" stroke="lightblue" domain="(-8,8)" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(310,10,440,140)"
+               bbox="(-20,-2,20,2)">
+    <grid spacings="((-20,40,20),(-2,4,2))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(10,10,15)" vlabels="(1,2,2)"/>
+    <definition>f(x) = sin(x)</definition>
+    <graph function="f" stroke="darkblue" N="1000" domain="(-20,20)" cliptobbox="yes"/>
+    <label anchor="(5,1.1)" cliptobbox="yes"><m>y = \sin(x)</m></label>
+  </coordinates>
+</diagram>

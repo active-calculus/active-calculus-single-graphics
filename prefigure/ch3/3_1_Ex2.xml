@@ -1,0 +1,29 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(240,180)">
+  <coordinates destination="(5,5,235,175)"
+               bbox="(-2.5,-2,2.5,6)">
+    <line endpoints="((-2.5,0),(2.5,0))" stroke="black" thickness="1.5"/>
+    <line endpoints="((0,-2),(0,10))" stroke="black" thickness="1.5"/>
+    <line endpoints="((-sqrt(3),-0.1),(-sqrt(3),0.1))" stroke="black" thickness="1.5"/>
+    <label anchor="(-1.932,-0.5)" alignment="s" offset="(0,-2)"><m>-\sqrt{3}</m></label>
+    <line endpoints="((-sqrt(1.5),-0.1),(-sqrt(1.5),0.1))" stroke="black" thickness="1.5"/>
+    <label anchor="(-sqrt(1.5),-0.5)" alignment="s" offset="(0,-2)"><m>-\sqrt{1.5}</m></label>
+    <line endpoints="((sqrt(3),-0.1),(sqrt(3),0.1))" stroke="black" thickness="1.5"/>
+    <label anchor="(sqrt(3),-0.5)" alignment="s" offset="(0,-2)"><m>\sqrt{3}</m></label>
+    <line endpoints="((sqrt(1.5),-0.1),(sqrt(1.5),0.1))" stroke="black" thickness="1.5"/>
+    <label anchor="(1.125,-0.5)" alignment="s" offset="(0,-2)"><m>\sqrt{1.5}</m></label>
+    <definition>f(x) = 0.25*(0.6*x**5 - 3*x**3) + 3.5</definition>
+    <graph function="f" stroke="blue" domain="(-2.5,2.5)" cliptobbox="yes"/>
+    <point p="(-sqrt(3),f(-sqrt(3)))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(-sqrt(3),f(-sqrt(3)))" alignment="ne" offset="(4,4)" cliptobbox="yes"><m>A</m></label>
+    <point p="(sqrt(3),f(sqrt(3)))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(sqrt(3),f(sqrt(3)))" alignment="se" offset="(4,-4)" cliptobbox="yes"><m>E</m></label>
+    <point p="(sqrt(1.5),f(sqrt(1.5)))" size="2" fill="orange" cliptobbox="yes"/>
+    <label anchor="(sqrt(1.5),f(sqrt(1.5)))" alignment="ne" offset="(4,4)" cliptobbox="yes"><m>D</m></label>
+    <point p="(-sqrt(1.5),f(-sqrt(1.5)))" size="2" fill="orange" cliptobbox="yes"/>
+    <label anchor="(-sqrt(1.5),f(-sqrt(1.5)))" alignment="ne" offset="(4,4)" cliptobbox="yes"><m>B</m></label>
+    <point p="(0,f(0))" size="2" fill="green" cliptobbox="yes"/>
+    <label anchor="(0,f(0))" alignment="ne" offset="(4,4)" cliptobbox="yes"><m>C</m></label>
+    <label anchor="(2.3,f(2.3))" alignment="nw" offset="(-4,4)" cliptobbox="yes"><m>f</m></label>
+  </coordinates>
+</diagram>

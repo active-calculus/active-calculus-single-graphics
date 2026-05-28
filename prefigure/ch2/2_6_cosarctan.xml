@@ -1,0 +1,11 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(0,0,150,150)"
+               bbox="(0,0,0.85,0.85)">
+    <polygon points="((0.3,0.1),(0.6,0.1),(0.6,0.8))" closed="yes" stroke="blue" thickness="2"/>
+    <label anchor="(0.65,0.4)" alignment="ne" offset="(-2,0)"><m>x</m></label>
+    <label anchor="(0.375,0.4)" alignment="nw" offset="(2,0)"><m>\sqrt{1+x^2}</m></label>
+    <label anchor="(0.375,0.17)" alignment="e" offset="(-2,0)"><m>\theta</m></label>
+    <label anchor="(0.45,0.05)" alignment="c" offset="(0,0)"><m>1</m></label>
+  </coordinates>
+</diagram>

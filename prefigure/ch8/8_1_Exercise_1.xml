@@ -1,0 +1,11 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(250,150)">
+  <coordinates destination="(20,5,245,145)"
+               bbox="(0,-1,10,1)">
+    <grid spacings="((0,1,10),(-1,0.25,1))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,2,10)" vlabels="(-1,0.5,1)"/>
+    <definition>f(x) = sin(4*x)</definition>
+    <graph function="f" N="400" stroke="blue"/>
+    <label anchor="(10,0)" alignment="nw" offset="(0,3)"><m>x</m></label>
+  </coordinates>
+</diagram>

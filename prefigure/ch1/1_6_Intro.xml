@@ -1,0 +1,16 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-3,-3,3,3)">
+    <grid spacings="((-3,1,3),(-3,1,3))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = x-0.25*x**3</definition>
+    <graph function="f" stroke="blue" domain="(-3,3)" cliptobbox="yes"/>
+    <tangent-line function="f" point="-0.8" stroke="darkgreen" domain="(-2.0,0.4)" cliptobbox="yes"/>
+    <point p="(-0.8,f(-0.8))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(-0.8,f(-0.8))" alignment="nw" offset="(-4,4)" cliptobbox="yes"><m>A</m></label>
+    <tangent-line function="f" point="2.2" stroke="darkgreen" domain="(1.6,2.8)" cliptobbox="yes"/>
+    <point p="(2.2,f(2.2))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(2.2,f(2.2))" alignment="sw" offset="(-4,-4)" cliptobbox="yes"><m>B</m></label>
+  </coordinates>
+</diagram>

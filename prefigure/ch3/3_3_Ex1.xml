@@ -1,0 +1,15 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(200,100)">
+  <coordinates destination="(5,5,195,95)"
+               bbox="(0,1,10,6)">
+    <line endpoints="((1,5.5),(6,5.5))" stroke="blue" thickness="1.5"/>
+    <label anchor="(3.5,5)" alignment="n" offset="(0,-2)"><m>x</m></label>
+    <line endpoints="((6,5.4),(6,5.6))" stroke="black" thickness="1.5"/>
+    <line endpoints="((6,5.5),(9,5.5))" stroke="darkgreen" thickness="1.5"/>
+    <label anchor="(7.5,5)" alignment="n" offset="(0,-2)"><m>20-x</m></label>
+    <polygon points="((2,2),(4,2),(3,2+sqrt(3)))" closed="yes" stroke="blue" thickness="2"/>
+    <label anchor="(3,1.8)" alignment="s"><m>\frac{x}{3}</m></label>
+    <polygon points="((7,2),(8,2),(8,3),(7,3))" closed="yes" stroke="darkgreen" thickness="2"/>
+    <label anchor="(7.5,1.8)" alignment="s"><m>\frac{20-x}{4}</m></label>
+  </coordinates>
+</diagram>

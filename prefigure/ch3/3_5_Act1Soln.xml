@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(140,120)">
+  <coordinates destination="(5,5,135,115)"
+               bbox="(-7,-9,7,3)">
+    <line endpoints="((0,-8),(6,0))" stroke="black" thickness="1.5"/>
+    <line endpoints="((0,-8),(-6,0))" stroke="black" thickness="1.5"/>
+    <definition>f1(x) = -sqrt(1 - x**2/36)</definition>
+    <graph function="f1" stroke="black" domain="(-5.999,5.999)" cliptobbox="yes"/>
+    <definition>f2(x) = sqrt(1 - x**2/36)</definition>
+    <graph function="f2" stroke="black" domain="(-5.999,5.999)" cliptobbox="yes"/>
+    <line endpoints="((0,-8),(0,0))" stroke="gray" thickness="1" cliptobbox="yes"/>
+    <line endpoints="((6,0),(0,0))" stroke="gray" thickness="1" cliptobbox="yes"/>
+    <definition>f3(x) = -3.8 - sqrt(1 - x**2/9)</definition>
+    <graph function="f3" stroke="blue" domain="(-2.999,2.999)" cliptobbox="yes"/>
+    <definition>f4(x) = -3.8 + sqrt(1 - x**2/9)</definition>
+    <graph function="f4" stroke="blue" domain="(-2.999,2.999)" cliptobbox="yes"/>
+    <line endpoints="((0,-8),(0,-4))" stroke="blue" thickness="1" cliptobbox="yes"/>
+    <line endpoints="((3,-4),(0,-4))" stroke="blue" thickness="1" cliptobbox="yes"/>
+    <label anchor="(1.5,-3.9)" alignment="n" offset="(0,2)" cliptobbox="yes"><m>r</m></label>
+    <label anchor="(0,-6)" alignment="e" offset="(2,0)" cliptobbox="yes"><m>h</m></label>
+    <line endpoints="((-7,-8),(-7,0))" stroke="gray" thickness="1" cliptobbox="yes"/>
+    <line endpoints="((6,1.5),(0,1.5))" stroke="gray" thickness="1" cliptobbox="yes"/>
+    <label anchor="(3,1.5)" alignment="n" offset="(0,4)" cliptobbox="yes"><m>6</m></label>
+    <label anchor="(-7,-4)" alignment="e" offset="(4,0)" cliptobbox="yes"><m>8</m></label>
+  </coordinates>
+</diagram>

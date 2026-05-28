@@ -1,0 +1,15 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(200,150)">
+  <coordinates destination="(33,5,193,145)"
+               bbox="(0,-0.1,20,0.1)">
+    <axes decorations="no"/>
+    <transform>
+      <definition>__a(P) = P*(0.025 - 0.002*P)</definition>
+      <graph function="__a" stroke="blue" cliptobbox="yes"/>
+    </transform>
+    <label anchor="(20,0)" alignment="nw" offset="(-3,3)"><m>P</m></label>
+    <label anchor="(0,0.1)" alignment="se" offset="(3,-3)"><m>\frac{dP}{dt}</m></label>
+    <label anchor="(12.5,0)" alignment="ne" offset="(3,3)"><m>N</m></label>
+    <label anchor="(6.25,0)" alignment="s" offset="(0,-6)"><m>N/2</m></label>
+  </coordinates>
+</diagram>

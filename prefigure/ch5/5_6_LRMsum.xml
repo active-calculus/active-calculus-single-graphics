@@ -1,0 +1,32 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(450,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1,-2,9,12)">
+    <axes decorations="no" hlabels="(1,7,8)"/>
+    <definition>f1(x) = -0.05*(x-4)**3 + 7</definition>
+    <riemann-sum function="f1" N="5" domain="(1,8)" rule="left" fill="lightgreen"/>
+    <graph function="f1" stroke="blue" cliptobbox="yes"/>
+    <label anchor="(0.1,10)" alignment="ne" offset="(3,3)"><m>y = f(x)</m></label>
+    <label anchor="(4.5,-1)" alignment="c">LEFT</label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-1,-2,9,12)">
+    <axes decorations="no" hlabels="(1,7,8)"/>
+    <definition>f2(x) = -0.05*(x-4)**3 + 7</definition>
+    <riemann-sum function="f2" N="5" domain="(1,8)" rule="right" fill="lightgreen"/>
+    <graph function="f2" stroke="blue" cliptobbox="yes"/>
+    <label anchor="(0.1,10)" alignment="ne" offset="(3,3)"><m>y = f(x)</m></label>
+    <label anchor="(4.5,-1)" alignment="c">RIGHT</label>
+  </coordinates>
+
+  <coordinates destination="(310,10,440,140)"
+               bbox="(-1,-2,9,12)">
+    <axes decorations="no" hlabels="(1,7,8)"/>
+    <definition>f3(x) = -0.05*(x-4)**3 + 7</definition>
+    <riemann-sum function="f3" N="5" domain="(1,8)" rule="midpoint" fill="lightgreen"/>
+    <graph function="f3" stroke="blue" cliptobbox="yes"/>
+    <label anchor="(0.1,10)" alignment="ne" offset="(3,3)"><m>y = f(x)</m></label>
+    <label anchor="(4.5,-1)" alignment="c">MID</label>
+  </coordinates>
+</diagram>

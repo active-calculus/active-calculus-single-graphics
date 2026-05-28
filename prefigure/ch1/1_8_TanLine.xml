@@ -1,0 +1,29 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(360, 180)">
+  <coordinates destination="(10,10,170,170)"
+               bbox="(-1,-1,5,5)">
+    <axes decorations="no"/>
+    <label anchor="(4.5,-0.5)"><m>x</m></label>
+    <label anchor="(0.3,4.5)"><m>y</m></label>
+    <label anchor="(2.5,4)" alignment="ne" offset="(-2,2)"><m>y = f(x)</m></label>
+    <label anchor="(2.1,-0.5)"><m>a</m></label>
+    <label anchor="(2.2,1.5)" alignment="nw" offset="(-2,2)"><m>(a,f(a))</m></label>
+    <label anchor="(1.2,0.4)" alignment="ne" offset="(2,2)"><m>y = f'(a)(x-a) + f(a)</m></label>
+    <definition>f(x) = 0.1*x*(x+2)*(x-3) + 2</definition>
+    <graph function="f" stroke="blue" domain="(-1,5)" cliptobbox="yes"/>
+    <tangent-line function="f" point="2.2" stroke="darkgreen" domain="(0.8,3.6)" cliptobbox="yes"/>
+    <point p="(2.2,f(2.2))" size="2" fill="red" cliptobbox="yes"/>
+    <rectangle lower-left="(2.0,f(2.2)-0.2)" dimensions="(0.4,0.4)" stroke="lightgray" cliptobbox="yes"/>
+  </coordinates>
+  <coordinates destination="(190,10,350,170)"
+               bbox="(2.0,1.065,2.4,1.465)">
+    <rectangle lower-left="(2.0,1.065)" dimensions="(0.4,0.4)" stroke="lightgray"/>
+    <label anchor="(2.2,1.27)" alignment="nw" offset="(-2,-2)"><m>(a,f(a))</m></label>
+    <label anchor="(2.25,1.33)" alignment="ne" offset="(-2,2)"><m>y = f(x)</m></label>
+    <label anchor="(2.05,1.165)" alignment="ne" offset="(-2,2)"><m>y = L(x)</m></label>
+    <definition>f(x) = 0.1*x*(x+2)*(x-3) + 2</definition>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+    <tangent-line function="f" point="2.2" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(2.2,f(2.2))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

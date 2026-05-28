@@ -1,0 +1,13 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(120,120)">
+  <coordinates destination="(5,5,115,115)"
+               bbox="(-5,-3,5,3)">
+    <axes decorations="no" hlabels="(-4,2,4)" vlabels="(-3,1,3)"/>
+    <label anchor="(5,0)" alignment="nw" offset="(0,3)"><m>x</m></label>
+    <label anchor="(0,3)" alignment="se" offset="(3,-3)"><m>y</m></label>
+    <definition>f(x) = sin(x)</definition>
+    <definition>__a(x) = x</definition>
+    <graph function="f" stroke="red" cliptobbox="yes"/>
+    <graph function="__a" stroke="blue" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1,-20,5,100)">
+
+    <grid spacings="((-1,6,5),(-20,120,100))"
+          stroke="lightgray"/>
+
+    <axes decorations="no" hlabels="(0,1,4)" vlabels="(0,20,80)"/>
+
+    <label anchor="(3.1, 5)"><m>t</m> (decades)</label>
+    <label anchor="(0.3, 90)"><m>y</m> (in thousands)</label>
+    <label anchor="(4.0, 70)"><m>P</m></label>
+
+    <definition>f(x) = 25*exp(0.2*x)</definition>
+    <graph function="f" stroke="blue" domain="(0,5)" cliptobbox="yes"/>
+
+    <definition>g(x) = f(2) + (f(4)-f(2))/(4-2)*(x-2)</definition>
+    <graph function="g" stroke="magenta" domain="(1.2,4.8)" cliptobbox="yes"/>
+
+    <tangent-line function="f" point="2" domain="(0.5,3.5)" stroke="darkgreen" cliptobbox="yes"/>
+
+    <point p="(4, f(4))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(2, f(2))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

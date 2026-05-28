@@ -1,0 +1,13 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1,-2,5,11)">
+    <grid spacings="((-1,6,5),(-2,13,11))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,3,4)" vlabels="(3,6,9)"/>
+    <definition>f(x) = 2*x + 1</definition>
+    <area-under-curve function="f" domain="(1,4)" fill="lightblue"/>
+    <graph function="f" stroke="blue"/>
+    <label anchor="(4,9)" alignment="nw" offset="(-2,2)"><m>f(x) = 2x+1</m></label>
+    <label anchor="(2.5,2)" alignment="c"><m>\int_1^4 (2x+1) \, dx</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,31 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(480,120)">
+  <coordinates destination="(10,10,230,110)"
+               bbox="(-0.5,-2,7.5,2)">
+    <grid spacings="((-0.5,0.5,7.5),(-2,0.5,2))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,7)" vlabels="(-1,1,1)"/>
+    <definition>f1(x) = 0</definition>
+    <graph function="f1" stroke="blue" domain="(-0.5,0)"/>
+    <definition>f2(x) = x</definition>
+    <graph function="f2" stroke="blue" domain="(0,1)"/>
+    <definition>f3(x) = sqrt(1-(x-1)**2)</definition>
+    <graph function="f3" stroke="blue" domain="(1,1.999)"/>
+    <definition>f4(x) = -1-(x-3)</definition>
+    <graph function="f4" stroke="blue" domain="(2,3)"/>
+    <definition>f5(x) = -1</definition>
+    <graph function="f5" stroke="blue" domain="(3,4)"/>
+    <definition>f6(x) = x-5</definition>
+    <graph function="f6" stroke="blue" domain="(4,5)"/>
+    <definition>f7(x) = sqrt(1-(x-6)**2)</definition>
+    <graph function="f7" stroke="blue" domain="(5.001,6.999)"/>
+    <definition>f8(x) = 0</definition>
+    <graph function="f8" stroke="blue" domain="(7,7.5)"/>
+    <label anchor="(3,1)" alignment="nw" offset="(-2,2)"><m>y = f(x)</m></label>
+  </coordinates>
+
+  <coordinates destination="(250,10,470,110)"
+               bbox="(-0.5,-2,7.5,2)">
+    <grid spacings="((-0.5,0.5,7.5),(-2,0.5,2))" stroke="lightgray"/>
+    <axes decorations="no"/>
+  </coordinates>
+</diagram>

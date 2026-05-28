@@ -1,0 +1,27 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-8,2.5,40)">
+
+    <grid spacings="((-0.5,0.5,2.5),(-8,8,40))"
+          stroke="lightgray"/>
+
+    <axes decorations="no" hlabels="(0,1,2)" vlabels="(0,16,40)"/>
+
+    <label anchor="(2.3, 2)"><m>t</m></label>
+    <label anchor="(0.1, 36)"><m>y</m></label>
+    <label anchor="(0.9, 38)" scale="0.8">secant line</label>
+    <label anchor="(1.6, 23)" scale="0.8">tangent line</label>
+
+    <definition>f(x) = -16*x*x+16*x+32</definition>
+    <graph function="f" stroke="blue" domain="(0,2)" cliptobbox="yes"/>
+
+    <definition>g(x) = f(1) + (f(2)-f(1))/(2-1)*(x-1)</definition>
+    <graph function="g" stroke="magenta" domain="(0.2,2.8)" cliptobbox="yes"/>
+
+    <tangent-line function="f" point="1" domain="(0.2,1.8)" stroke="darkgreen" cliptobbox="yes"/>
+
+    <point p="(1, f(1))" size="2" fill="red" cliptobbox="yes"/>
+    <point p="(2, f(2))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

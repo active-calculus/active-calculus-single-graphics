@@ -1,0 +1,10 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(120,120)">
+  <coordinates destination="(20,20,115,115)"
+               bbox="(0,0,8,8)">
+    <grid spacings="((0,1,8),(0,1,8))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,2,8)" vlabels="(0,2,8)"/>
+    <label anchor="(0,8)" alignment="se" offset="(3,-3)"><m>y</m></label>
+    <label anchor="(8,0)" alignment="nw" offset="(-3,3)"><m>t</m></label>
+  </coordinates>
+</diagram>

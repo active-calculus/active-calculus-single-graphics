@@ -1,0 +1,21 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-3,-2,3,4)">
+    <grid spacings="((-3,0.5,3),(-2,0.5,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,1,3)" vlabels="(-2,1,4)"/>
+    <label anchor="(2.5,0.2)"><m>x</m></label>
+    <label anchor="(0.2,3.5)"><m>y</m></label>
+    <definition>f1(x) = 3*(x+2)+2</definition>
+    <graph function="f1" stroke="blue" domain="(-3,-2)"/>
+    <definition>f2(x) = 2*(x+2)/3 + 1</definition>
+    <graph function="f2" stroke="blue" domain="(-2,1)"/>
+    <definition>f3(x) = 4-x</definition>
+    <graph function="f3" stroke="blue" domain="(1,3)"/>
+    <point p="(-2,2)" size="1.5" fill="white"/>
+    <point p="(-2,1)" size="1.5" fill="red"/>
+    <point p="(-1,1.66667)" size="1.5" fill="white"/>
+    <point p="(1,3)" size="1.5" fill="white"/>
+    <point p="(1,2)" size="1.5" fill="red"/>
+  </coordinates>
+</diagram>

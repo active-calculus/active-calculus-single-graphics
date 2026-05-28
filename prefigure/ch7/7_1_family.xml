@@ -1,0 +1,38 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(15,15,145,145)"
+               bbox="(0,0,3.5,6)">
+    <grid spacings="((0,0.5,3.5),(0,0.5,6))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,3)" vlabels="(0,1,6)"/>
+    <definition>f1(x) = 3 - 3*exp(-x/2)</definition>
+    <graph function="f1" stroke="blue"/>
+    <rectangle lower-left="(0.75,0.9804)" dimensions="(0.5,0.4)" fill="white"/>
+    <label anchor="(1,1.1804)" alignment="c"><m>-3</m></label>
+    <definition>f2(x) = 3 - 2*exp(-x/2)</definition>
+    <graph function="f2" stroke="blue"/>
+    <rectangle lower-left="(0.75,1.5869)" dimensions="(0.5,0.4)" fill="white"/>
+    <label anchor="(1,1.7869)" alignment="c"><m>-2</m></label>
+    <definition>f3(x) = 3 - exp(-x/2)</definition>
+    <graph function="f3" stroke="blue"/>
+    <rectangle lower-left="(0.75,2.1935)" dimensions="(0.5,0.4)" fill="white"/>
+    <label anchor="(1,2.3935)" alignment="c"><m>-1</m></label>
+    <definition>f4(x) = 3</definition>
+    <graph function="f4" stroke="blue"/>
+    <rectangle lower-left="(0.75,2.8)" dimensions="(0.5,0.4)" fill="white"/>
+    <label anchor="(1,3)" alignment="c"><m>0</m></label>
+    <definition>f5(x) = 3 + exp(-x/2)</definition>
+    <graph function="f5" stroke="blue"/>
+    <rectangle lower-left="(0.75,3.4065)" dimensions="(0.5,0.4)" fill="white"/>
+    <label anchor="(1,3.6065)" alignment="c"><m>1</m></label>
+    <definition>f6(x) = 3 + 2*exp(-x/2)</definition>
+    <graph function="f6" stroke="blue"/>
+    <rectangle lower-left="(0.75,4.0131)" dimensions="(0.5,0.4)" fill="white"/>
+    <label anchor="(1,4.2131)" alignment="c"><m>2</m></label>
+    <definition>f7(x) = 3 + 3*exp(-x/2)</definition>
+    <graph function="f7" stroke="blue"/>
+    <rectangle lower-left="(0.75,4.6196)" dimensions="(0.5,0.4)" fill="white"/>
+    <label anchor="(1,4.8196)" alignment="c"><m>3</m></label>
+    <label anchor="(3.5,0)" alignment="nw" offset="(-3,3)"><m>t</m></label>
+    <label anchor="(0,6)" alignment="se" offset="(3,-3)"><m>v</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,44 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-5,-2.5,35,17.5)">
+    <grid spacings="((-5,2.5,35),(-2.5,1.25,17.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,10,30)" vlabels="(0,5,15)"/>
+    <definition>f1(x) = 2.5</definition>
+    <graph function="f1" stroke="blue" domain="(0,5)"/>
+    <definition>f2(x) = 7.5</definition>
+    <graph function="f2" stroke="blue" domain="(5,10)"/>
+    <definition>f3(x) = 15</definition>
+    <graph function="f3" stroke="blue" domain="(10,15)"/>
+    <definition>f4(x) = 12.5</definition>
+    <graph function="f4" stroke="blue" domain="(15,20)"/>
+    <definition>f5(x) = 10</definition>
+    <graph function="f5" stroke="blue" domain="(20,25)"/>
+    <definition>f6(x) = 5</definition>
+    <graph function="f6" stroke="blue" domain="(25,30)"/>
+    <label anchor="(20,12.5)" alignment="ne" offset="(2,2)"><m>c</m></label>
+    <label anchor="(1,16)" alignment="ne" offset="(2,2)">cal/min</label>
+    <label anchor="(32,0.5)" alignment="ne" offset="(2,2)">min</label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-5,-50,35,350)">
+    <grid spacings="((-5,2.5,35),(-50,25,350))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,10,30)" vlabels="(0,100,300)"/>
+    <definition>g1(x) = 2.5*x</definition>
+    <graph function="g1" stroke="blue" domain="(0,5)"/>
+    <definition>g2(x) = 7.5*(x-5) + 12.5</definition>
+    <graph function="g2" stroke="blue" domain="(5,10)"/>
+    <definition>g3(x) = 15*(x-10) + 50</definition>
+    <graph function="g3" stroke="blue" domain="(10,15)"/>
+    <definition>g4(x) = 12.5*(x-15) + 125</definition>
+    <graph function="g4" stroke="blue" domain="(15,20)"/>
+    <definition>g5(x) = 10*(x-20) + 187.5</definition>
+    <graph function="g5" stroke="blue" domain="(20,25)"/>
+    <definition>g6(x) = 5*(x-25) + 237.5</definition>
+    <graph function="g6" stroke="blue" domain="(25,30)"/>
+    <label anchor="(20,150)" alignment="ne" offset="(2,2)"><m>C</m></label>
+    <label anchor="(1,325)" alignment="ne" offset="(2,2)">cal</label>
+    <label anchor="(32,0.5)" alignment="ne" offset="(2,2)">min</label>
+  </coordinates>
+</diagram>

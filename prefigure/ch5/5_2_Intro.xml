@@ -1,0 +1,33 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1,-4.5,4.5,23)">
+    <grid spacings="((-1,5.5,4.5),(-4.5,27.5,23))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,4)" vlabels="(10,10,20)"/>
+    <definition>f(x) = x**2</definition>
+    <area-under-curve function="f" domain="(1,4)" fill="lightblue"/>
+    <graph function="f" stroke="darkblue" cliptobbox="yes"/>
+    <point p="(1,f(1))" size="1.5" fill="blue"/>
+    <point p="(4,f(4))" size="1.5" fill="blue"/>
+    <label anchor="(3,9)" alignment="nw" offset="(-2,2)"><m>f(x)=x^2</m></label>
+    <label anchor="(2.8,2)" alignment="c"><m>\int_1^4 x^2 \, dx = 21</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-1,-4.5,4.5,23)">
+    <grid spacings="((-1,5.5,4.5),(-4.5,27.5,23))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,1,4)" vlabels="(10,10,20)"/>
+    <definition>F(x) = 0.3333*x**3</definition>
+    <definition>Fval1 = F(1)</definition>
+    <definition>Fval4 = F(4)</definition>
+    <graph function="F" stroke="blue" cliptobbox="yes"/>
+    <line endpoints="((1,0),(1,Fval1))" stroke="darkgray"/>
+    <point p="(1,Fval1)" size="1.5" fill="cyan"/>
+    <line endpoints="((4,0),(4,Fval4))" stroke="darkgray"/>
+    <point p="(4,Fval4)" size="1.5" fill="cyan"/>
+    <label anchor="(3,9)" alignment="nw" offset="(-2,2)"><m>F(x)=\frac{1}{3}x^3</m></label>
+    <label anchor="(1,0.333)" alignment="nw" offset="(-2,2)"><m>(1,\frac{1}{3})</m></label>
+    <label anchor="(4,21.333)" alignment="sw" offset="(-3,-1)"><m>(4,\frac{64}{3})</m></label>
+    <label anchor="(2,15)" alignment="c"><m>F(4) - F(1) = 21</m></label>
+  </coordinates>
+</diagram>

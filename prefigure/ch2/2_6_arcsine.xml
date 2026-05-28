@@ -1,0 +1,26 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.75*pi,-0.75*pi,0.75*pi,0.75*pi)">
+    <grid spacings="((-0.75*pi,0.25*pi,0.75*pi),(-0.75*pi,0.25*pi,0.75*pi))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <label anchor="(-0.5*pi-0.1,-0.3)" alignment="s" offset="(0,2)"><m>-\frac{\pi}{2}</m></label>
+    <label anchor="(0.5*pi,-0.3)" alignment="s" offset="(0,2)"><m>\frac{\pi}{2}</m></label>
+    <label anchor="(-0.3,-0.5*pi)" alignment="w" offset="(2,0)"><m>-\frac{\pi}{2}</m></label>
+    <label anchor="(-0.3,0.5*pi)" alignment="w" offset="(2,0)"><m>\frac{\pi}{2}</m></label>
+    <definition>f1(x) = x</definition>
+    <graph function="f1" stroke="gray" domain="(-0.75*pi,0.75*pi)"/>
+    <definition>f2(x) = sin(x)</definition>
+    <graph function="f2" stroke="blue" domain="(-0.5*pi,0.5*pi)"/>
+    <point p="(-pi/2,-1)" size="1.5" fill="blue"/>
+    <point p="(pi/2,1)" size="1.5" fill="blue"/>
+    <definition>f3(x) = asin(x)</definition>
+    <graph function="f3" stroke="magenta" domain="(-0.99999,0.99999)"/>
+    <point p="(-1,-pi/2)" size="1.5" fill="magenta"/>
+    <point p="(1,pi/2)" size="1.5" fill="magenta"/>
+    <label anchor="(1,0.8)" alignment="se" offset="(2,-2)"><m>f</m></label>
+    <label anchor="(0.8,1)" alignment="nw" offset="(-1,1)"><m>f^{-1}</m></label>
+    <label anchor="(0.5*pi,1)" alignment="se" offset="(2,-2)"><m>(\frac{\pi}{2}, 1)</m></label>
+    <label anchor="(1,0.5*pi)" alignment="nw" offset="(-2,2)"><m>(1,\frac{\pi}{2})</m></label>
+  </coordinates>
+</diagram>

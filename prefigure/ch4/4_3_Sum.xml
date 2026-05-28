@@ -1,0 +1,53 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(450,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-0.5,3.5,4.5)">
+    <grid spacings="((-0.5,4,3.5),(-0.5,5,4.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f1(x) = 0.5*sin(2*x) + 1.25</definition>
+    <area-under-curve function="f1" domain="(0.2,2.8)" fill="lightblue"/>
+    <riemann-sum function="f1" N="1" domain="(1,1.6)" rule="left" fill="lightgreen"/>
+    <graph function="f1" stroke="blue"/>
+    <label anchor="(0.2,-0.45)" alignment="n" offset="(0,2)"><m>a</m></label>
+    <label anchor="(1,-0.5)" alignment="n" offset="(0,2)"><m>x_i</m></label>
+    <label anchor="(1.3,2.1)" alignment="c"><m>A = f(x_i) \triangle x</m></label>
+    <label anchor="(1.3,0.85)" alignment="c"><m>A</m></label>
+    <label anchor="(1.6,-0.4)" alignment="n" offset="(2,-2)"><m>x_{i+1}</m></label>
+    <label anchor="(2.8,-0.45)" alignment="n" offset="(0,2)"><m>b</m></label>
+    <label anchor="(3.4,1.6)" alignment="nw" offset="(-2,2)"><m>f</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-0.5,-0.5,3.5,4.5)">
+    <grid spacings="((-0.5,4,3.5),(-0.5,5,4.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f2(x) = 1.5*exp(-x) + 0.5</definition>
+    <area-under-curve function="f2" domain="(0.2,2.8)" fill="lightred"/>
+    <riemann-sum function="f2" N="1" domain="(1,1.6)" rule="left" fill="lightgreen"/>
+    <graph function="f2" stroke="blue"/>
+    <label anchor="(0.2,-0.45)" alignment="n" offset="(0,2)"><m>a</m></label>
+    <label anchor="(1,-0.5)" alignment="n" offset="(0,2)"><m>x_i</m></label>
+    <label anchor="(1.3,1.7)" alignment="c"><m>B = g(x_i) \triangle x</m></label>
+    <label anchor="(1.3,0.45)" alignment="c"><m>B</m></label>
+    <label anchor="(1.6,-0.4)" alignment="n" offset="(2,-2)"><m>x_{i+1}</m></label>
+    <label anchor="(2.8,-0.45)" alignment="n" offset="(0,2)"><m>b</m></label>
+    <label anchor="(3.4,0.6)" alignment="nw" offset="(-2,2)"><m>g</m></label>
+  </coordinates>
+
+  <coordinates destination="(310,10,440,140)"
+               bbox="(-0.5,-0.5,3.5,4.5)">
+    <grid spacings="((-0.5,4,3.5),(-0.5,5,4.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f3(x) = 1.5*exp(-x) + 0.5*sin(2*x) + 1.75</definition>
+    <area-under-curve function="f3" domain="(0.2,2.8)" fill="lightgray"/>
+    <riemann-sum function="f3" N="1" domain="(1,1.6)" rule="left" fill="lightgreen"/>
+    <graph function="f3" stroke="blue"/>
+    <label anchor="(0.2,-0.45)" alignment="n" offset="(0,2)"><m>a</m></label>
+    <label anchor="(1,-0.5)" alignment="n" offset="(0,2)"><m>x_i</m></label>
+    <label anchor="(1.6,3.5)" alignment="c"><m>C = (f(x_i) + g(x_i)) \triangle x</m></label>
+    <label anchor="(1.3,1.5)" alignment="c"><m>C</m></label>
+    <label anchor="(1.6,-0.4)" alignment="n" offset="(2,-2)"><m>x_{i+1}</m></label>
+    <label anchor="(2.8,-0.45)" alignment="n" offset="(0,2)"><m>b</m></label>
+    <label anchor="(3.4,2.1)" alignment="nw" offset="(-2,2)"><m>f+g</m></label>
+  </coordinates>
+</diagram>

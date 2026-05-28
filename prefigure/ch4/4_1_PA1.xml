@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-0.25,-1,2.5,9)">
+    <grid spacings="((-0.25,0.25,2.5),(-1,1,9))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,2)" vlabels="(0,4,8)"/>
+    <label anchor="(0.1,8)" alignment="ne" offset="(2,2)">mph</label>
+    <label anchor="(2.1,0.25)" alignment="ne" offset="(2,2)">hrs</label>
+  </coordinates>
+
+  <coordinates destination="(155,5,295,145)"
+               bbox="(-0.25,-1,2.5,9)">
+    <grid spacings="((-0.25,0.25,2.5),(-1,1,9))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,2)" vlabels="(0,4,8)"/>
+    <label anchor="(0.1,8)" alignment="ne" offset="(2,2)">miles</label>
+    <label anchor="(2.1,0.25)" alignment="ne" offset="(2,2)">hrs</label>
+  </coordinates>
+</diagram>

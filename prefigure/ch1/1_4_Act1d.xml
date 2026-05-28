@@ -1,0 +1,45 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(360, 240)">
+  <coordinates destination="(5,125,175,235)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f1(x) = sin(pi*x/2)</definition>
+    <graph function="f1" stroke="blue" domain="(-4,-2)" cliptobbox="yes"/>
+    <graph function="f1" stroke="blue" domain="(0,2)" cliptobbox="yes"/>
+    <graph function="f1" stroke="blue" domain="(4,6)" cliptobbox="yes"/>
+    <definition>f2(x) = -sin(pi*x/2)</definition>
+    <graph function="f2" stroke="blue" domain="(-6,-4)" cliptobbox="yes"/>
+    <graph function="f2" stroke="blue" domain="(-2,0)" cliptobbox="yes"/>
+    <graph function="f2" stroke="blue" domain="(2,4)" cliptobbox="yes"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>w</m></label>
+    <label anchor="(5.2,-0.2)" alignment="se" offset="(2,-2)" cliptobbox="yes"><m>x</m></label>
+  </coordinates>
+
+  <coordinates destination="(5,5,175,115)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)"><m>w'</m></label>
+    <label anchor="(5.2,0.2)" alignment="ne" offset="(2,2)"><m>x</m></label>
+  </coordinates>
+
+  <coordinates destination="(190,125,355,235)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = 2/x</definition>
+    <graph function="f" stroke="blue" domain="(-6.2,-0.1)" cliptobbox="yes"/>
+    <graph function="f" stroke="blue" domain="(0.1,6)" cliptobbox="yes"/>
+    <label anchor="(-0.2,3.2)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>z</m></label>
+    <label anchor="(5.2,-0.2)" alignment="se" offset="(2,-2)" cliptobbox="yes"><m>x</m></label>
+  </coordinates>
+
+  <coordinates destination="(190,5,355,115)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)"><m>z'</m></label>
+    <label anchor="(5.2,0.2)" alignment="ne" offset="(2,2)"><m>x</m></label>
+  </coordinates>
+</diagram>

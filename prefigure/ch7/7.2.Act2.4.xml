@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(120,120)">
+  <coordinates destination="(5,5,115,115)"
+               bbox="(-1,-1,3,3)">
+    <axes decorations="no"/>
+    <definition>__a(x) = -(x-1) - 0.5*(x-1)**2</definition>
+    <graph function="__a" domain="(0.25,1.75)" stroke="blue"/>
+    <label anchor="(1,0)" alignment="s" offset="(0,-8)"><m>\overline{y}</m></label>
+    <label anchor="(3,0)" alignment="nw" offset="(-3,3)"><m>y</m></label>
+    <label anchor="(0,3)" alignment="se" offset="(3,-3)"><m>\frac{dy}{dt}=f(y)</m></label>
+  </coordinates>
+</diagram>

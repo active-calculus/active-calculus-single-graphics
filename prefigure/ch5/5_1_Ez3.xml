@@ -1,0 +1,25 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1,-4,7,4)">
+    <grid spacings="((-1,1,7),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,2,5)" vlabels="(-3,2,3)"/>
+    <definition>f1(x) = 1</definition>
+    <graph function="f1" stroke="blue" domain="(-1,0)"/>
+    <definition>f2(x) = -x + 1</definition>
+    <graph function="f2" stroke="blue" domain="(0,2)"/>
+    <definition>f3(x) = -1</definition>
+    <graph function="f3" stroke="blue" domain="(2,3)"/>
+    <definition>f4(x) = -1 + (x-3)</definition>
+    <graph function="f4" stroke="blue" domain="(3,5)"/>
+    <definition>f5(x) = 1</definition>
+    <graph function="f5" stroke="blue" domain="(5,7)"/>
+    <label anchor="(5,3)" alignment="ne" offset="(2,2)"><m>f</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-1,-4,7,4)">
+    <grid spacings="((-1,1,7),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,2,5)" vlabels="(-3,2,3)"/>
+  </coordinates>
+</diagram>

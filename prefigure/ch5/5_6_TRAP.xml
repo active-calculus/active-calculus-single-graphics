@@ -1,0 +1,22 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(225,150)">
+  <coordinates destination="(10,10,215,140)"
+               bbox="(-1,-2,9,12)">
+    <axes decorations="no"/>
+    <definition>f(x) = -0.05*(x-4)**3 + 7</definition>
+    <riemann-sum function="f" N="3" domain="(1,8)" rule="trapezoidal" fill="lightgreen"/>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+    <point p="(1,f(1))" size="1.5" fill="blue"/>
+    <point p="(3.333333,f(3.333333))" size="1.5" fill="blue"/>
+    <point p="(5.666666,f(5.666666))" size="1.5" fill="blue"/>
+    <point p="(8,f(8))" size="1.5" fill="blue"/>
+    <label anchor="(0.1,10)" alignment="ne" offset="(3,3)"><m>y = f(x)</m></label>
+    <label anchor="(1,-1.5)" alignment="n" offset="(0,0)"><m>x_0</m></label>
+    <label anchor="(3.333333,-1.5)" alignment="n" offset="(0,0)"><m>x_1</m></label>
+    <label anchor="(5.666666,-1.5)" alignment="n" offset="(0,0)"><m>x_2</m></label>
+    <label anchor="(8,-1.5)" alignment="n" offset="(0,0)"><m>x_3</m></label>
+    <label anchor="(2.16666666,3)" alignment="c"><m>D_1</m></label>
+    <label anchor="(4.5,3)" alignment="c"><m>D_2</m></label>
+    <label anchor="(6.83333333,3)" alignment="c"><m>D_3</m></label>
+  </coordinates>
+</diagram>

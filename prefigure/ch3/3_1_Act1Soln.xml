@@ -1,0 +1,14 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-8,-36,4,36)">
+    <grid spacings="((-8,12,4),(-36,72,36))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-6,2,2)" vlabels="(0,50,36)"/>
+    <line endpoints="((2,-36),(2,36))" stroke="gray"/>
+    <label anchor="(3,20)" alignment="ne" offset="(2,2)"><m>g</m></label>
+    <definition>f1(x) = 0.33*x**3 + 2*x**2 + x + 6*log(2-x)</definition>
+    <graph function="f1" stroke="blue" domain="(-8,1.999)" cliptobbox="yes"/>
+    <definition>f2(x) = 0.33*x**3 + 2*x**2 + x + 6*log(x-2)</definition>
+    <graph function="f2" stroke="blue" domain="(2.001,4)" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,33 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-0.5,-12,5.5,12)">
+    <grid spacings="((-0.5,0.5,5.5),(-12,2,12))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,5)" vlabels="(-10,4,10)"/>
+    <label anchor="(0.1,11)" alignment="ne" offset="(2,2)">mph</label>
+    <label anchor="(5.0,0.25)" alignment="ne" offset="(2,2)">hrs</label>
+    <definition>f1(x) = (11/0.05)*x</definition>
+    <graph function="f1" stroke="blue" domain="(0,0.05)"/>
+    <definition>f2(x) = 11</definition>
+    <graph function="f2" stroke="blue" domain="(0.01,0.95)"/>
+    <definition>f3(x) = 11 - (21/0.1)*(x-0.95)</definition>
+    <graph function="f3" stroke="blue" domain="(0.95,1.05)"/>
+    <definition>f4(x) = -10</definition>
+    <graph function="f4" stroke="blue" domain="(1.025,2.95)"/>
+    <definition>f5(x) = -10 + (19/0.1)*(x-2.95)</definition>
+    <graph function="f5" stroke="blue" domain="(2.95,3.05)"/>
+    <definition>f6(x) = 9</definition>
+    <graph function="f6" stroke="blue" domain="(3.025,3.95)"/>
+    <definition>f7(x) = 9 - (9/0.05)*(x-3.95)</definition>
+    <graph function="f7" stroke="blue" domain="(3.95,4)"/>
+    <label anchor="(4,9)" alignment="ne" offset="(2,2)"><m>y = v(t)</m></label>
+  </coordinates>
+
+  <coordinates destination="(155,5,295,145)"
+               bbox="(-0.5,-12,5.5,12)">
+    <grid spacings="((-0.5,0.5,5.5),(-12,2,12))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,5)" vlabels="(-10,4,10)"/>
+    <label anchor="(0.1,11)" alignment="ne" offset="(2,2)">miles</label>
+    <label anchor="(5.0,0.25)" alignment="ne" offset="(2,2)">hrs</label>
+  </coordinates>
+</diagram>

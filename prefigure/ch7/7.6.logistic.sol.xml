@@ -1,0 +1,14 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(200,150)">
+  <coordinates destination="(15,15,190,145)"
+               bbox="(0,0,200,15)">
+    <grid spacings="((0,20,200),(0,3,15))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,40,200)" vlabels="(0,3,15)"/>
+    <transform>
+      <definition>__a(t) = 6.084*12.5/((12.5-6.084)*exp(-0.002*12.5*t) + 6.084)</definition>
+      <graph function="__a" stroke="blue" cliptobbox="yes"/>
+    </transform>
+    <label anchor="(200,0)" alignment="nw" offset="(-3,3)"><m>t</m></label>
+    <label anchor="(0,15)" alignment="se" offset="(3,-3)"><m>P</m></label>
+  </coordinates>
+</diagram>

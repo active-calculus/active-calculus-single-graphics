@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(0,-4,4,4)">
+    <grid spacings="((0,1,4),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,4)"/>
+    <label anchor="(4,0)" alignment="nw" offset="(-3,3)"><m>P</m></label>
+    <label anchor="(0,4)" alignment="se" offset="(3,-3)"><m>\displaystyle\frac{dP}{dt}</m></label>
+    <definition>f(x) = -(x-3)*(x-1)*x</definition>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(200,150)">
+  <coordinates destination="(33,15,193,145)"
+               bbox="(6,0.010,7,0.015)">
+    <grid spacings="((6,0.1,7),(0.010,0.001,0.0151))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(6,0.2,7.001)" vlabels="(0.010,0.001,0.016)"/>
+    <point p="(6.0083,0.01260)" size="2.5" fill="red"/>
+    <point p="(6.0836,0.01241)" size="2.5" fill="red"/>
+    <point p="(6.1592,0.01224)" size="2.5" fill="red"/>
+    <point p="(6.2344,0.01192)" size="2.5" fill="red"/>
+    <point p="(6.5310,0.01146)" size="2.5" fill="red"/>
+    <point p="(6.6062,0.01136)" size="2.5" fill="red"/>
+    <point p="(6.6811,0.01121)" size="2.5" fill="red"/>
+    <point p="(6.7560,0.01106)" size="2.5" fill="red"/>
+    <label anchor="(7,0)" alignment="nw" offset="(-3,3)"><m>P</m></label>
+    <label anchor="(6,0.015)" alignment="se" offset="(3,-3)">per capita growth rate</label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,27 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-0.5,4.5,4.5)">
+    <definition>g(x) = 4.49999</definition>
+    <area-under-curve function="g" domain="(1.5286,2)" fill="lightblue" cliptobbox="yes"/>
+    <definition>f(x) = 1/(x-2)**2</definition>
+    <area-under-curve function="f" domain="(1,1.5286)" fill="lightblue" cliptobbox="yes"/>
+    <line endpoints="((1.5286,0),(1.5286,4.5))" stroke="lightblue" thickness="2"/>
+    <line endpoints="((1,0),(1,1))" stroke="black"/>
+    <graph function="f" domain="(-0.5,1.75)" stroke="blue" cliptobbox="yes"/>
+    <area-under-curve function="g" domain="(2,2.4714)" fill="lightblue" cliptobbox="yes"/>
+    <area-under-curve function="f" domain="(2.4714,3)" fill="lightblue" cliptobbox="yes"/>
+    <line endpoints="((2.4714,0),(2.4714,4.5))" stroke="lightblue" thickness="2"/>
+    <line endpoints="((3,0),(3,1))" stroke="black"/>
+    <line endpoints="((2,0),(2,4.5))" stroke="black" dash="8 2"/>
+    <graph function="f" domain="(2.25,4.5)" stroke="blue" cliptobbox="yes"/>
+    <grid spacings="((-0.5,5,4.5),(-0.5,5,4.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <label anchor="(0.125,4)" alignment="ne" offset="(2,2)"><m>y</m></label>
+    <label anchor="(4,-0.5)" alignment="ne" offset="(2,2)"><m>x</m></label>
+    <label anchor="(2.7,1.8)" alignment="ne" offset="(2,2)"><m>y = \frac{1}{(x-2)^2}</m></label>
+    <label anchor="(1,-0.45)" alignment="n" offset="(0,2)"><m>1</m></label>
+    <label anchor="(2,-0.45)" alignment="n" offset="(0,2)"><m>2</m></label>
+    <label anchor="(3,-0.45)" alignment="n" offset="(0,2)"><m>3</m></label>
+  </coordinates>
+</diagram>

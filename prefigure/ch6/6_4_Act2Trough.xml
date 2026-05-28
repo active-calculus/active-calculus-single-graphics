@@ -1,0 +1,19 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(225,150)">
+  <coordinates destination="(10,10,215,140)"
+               bbox="(-4,-6,6,3)">
+    <grid spacings="((-4,10,6),(-6,9,3))" stroke="lightgray"/>
+    <line endpoints="((-3,0),(3,0))" stroke="black"/>
+    <line endpoints="((0,2),(0,-5))" stroke="black"/>
+    <polygon points="((1.5,0),(0,-4),(-1.5,0))" closed="yes" stroke="darkblue"/>
+    <line endpoints="((1,2),(4,2))" stroke="darkblue"/>
+    <line endpoints="((4,2),(2.5,-2))" stroke="darkblue"/>
+    <line endpoints="((2.5,-2),(0,-4))" stroke="darkblue"/>
+    <line endpoints="((-1.5,0),(1,2))" stroke="darkblue"/>
+    <line endpoints="((1.5,0),(4,2))" stroke="darkblue"/>
+    <line endpoints="((1,2),(1.6923,0.15385))" stroke="darkblue"/>
+    <line endpoints="((1.6923,0.15385),(2.5,-2))" stroke="darkblue" dash="2 2"/>
+    <label anchor="(0.1,-4.5)" alignment="e" offset="(2,0)"><m>x^+</m></label>
+    <label anchor="(2.5,0)" alignment="ne" offset="(2,2)"><m>y^+</m></label>
+  </coordinates>
+</diagram>

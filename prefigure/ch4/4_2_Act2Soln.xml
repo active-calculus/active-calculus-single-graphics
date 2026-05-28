@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1,-1,6,6)">
+    <grid spacings="((-1,7,6),(-1,7,6))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(2,3,5)" vlabels="(2,2,4)"/>
+    <definition>f(x) = 0.2222*(x-3)**2 + 2</definition>
+    <area-under-curve function="f" domain="(2,5)" fill="lightblue"/>
+    <graph function="f" stroke="blue"/>
+    <label anchor="(0.2,4)" alignment="ne" offset="(2,2)"><m>y = v(t)</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,24 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(450, 150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-2,-4,6,4)">
+    <grid spacings="((-2,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(2,2,3)" vlabels="(2,2,3)"/>
+    <label anchor="(5.2,0.2)"><m>x</m></label>
+  </coordinates>
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-2,-4,6,4)">
+    <grid spacings="((-2,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(2,2,3)" vlabels="(2,2,3)"/>
+    <label anchor="(5.2,0.2)"><m>x</m></label>
+    <label anchor="(2.5,2.2)"><m>y=f'(x)</m></label>
+    <definition>f(x) = -0.5*x*(x-4)</definition>
+    <graph function="f" stroke="blue" domain="(-2,6)" cliptobbox="yes"/>
+  </coordinates>
+  <coordinates destination="(310,10,440,140)"
+               bbox="(-2,-4,6,4)">
+    <grid spacings="((-2,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(2,2,3)" vlabels="(2,2,3)"/>
+    <label anchor="(5.2,0.2)"><m>x</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,10 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(400,250)">
+  <coordinates destination="(20,20,395,245)"
+               bbox="(0,-1.5,5,1.5)">
+    <grid spacings="((0,0.5,5),(-1.5,0.5,1.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,5)" vlabels="(-1.5,0.5,1.5)"/>
+    <label anchor="(5,0)" alignment="nw" offset="(-3,3)"><m>v</m></label>
+    <label anchor="(0,1.5)" alignment="se" offset="(3,-3)"><m>\displaystyle\frac{dv}{dt}</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,44 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(360, 240)">
+  <coordinates destination="(5,125,175,235)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = 0.03*(x-5)*x*(x+4)+1</definition>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>f</m></label>
+    <label anchor="(5.2,0.2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>x</m></label>
+  </coordinates>
+
+  <coordinates destination="(5,5,175,115)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = 0.03*(x-5)*x*(x+4)+1</definition>
+    <derivative function="f" name="derivative"/>
+    <graph function="derivative" stroke="green"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)"><m>f'</m></label>
+    <label anchor="(5.2,0.2)" alignment="ne" offset="(2,2)"><m>x</m></label>
+  </coordinates>
+
+  <coordinates destination="(190,125,355,235)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = exp(-0.2*x)</definition>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>g</m></label>
+    <label anchor="(5.2,-0.2)" alignment="ne" offset="(2,-2)" cliptobbox="yes"><m>x</m></label>
+  </coordinates>
+
+  <coordinates destination="(190,5,355,115)"
+               bbox="(-6,-4,6,4)">
+    <grid spacings="((-6,1,6),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = exp(-0.2*x)</definition>
+    <derivative function="f" name="derivative"/>
+    <graph function="derivative" stroke="green"/>
+    <label anchor="(0.2,3.2)" alignment="ne" offset="(2,2)"><m>g'</m></label>
+    <label anchor="(5.2,0.2)" alignment="ne" offset="(2,2)"><m>x</m></label>
+  </coordinates>
+</diagram>

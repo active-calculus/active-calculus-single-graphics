@@ -1,0 +1,68 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(450,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-0.5,3.5,3.5)">
+    <grid spacings="((-0.5,4,3.5),(-0.5,4,3.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = 0.5*cos(2.5*x) + 2</definition>
+    <area-under-curve function="f" domain="(0.25,2.5)" fill="lightblue"/>
+    <graph function="f" stroke="blue"/>
+    <riemann-sum function="f" N="1" domain="(1.2,1.6)" rule="midpoint" fill="lightgreen"/>
+    <label anchor="(0.1,2.5)" alignment="ne" offset="(2,2)"><m>y = f(x)</m></label>
+    <label anchor="(0.25,-0.35)" alignment="n" offset="(0,2)"><m>a</m></label>
+    <label anchor="(2.5,-0.35)" alignment="n" offset="(0,2)"><m>b</m></label>
+    <label anchor="(1.2,0.65)" alignment="w" offset="(-3,0)"><m>f(x)</m></label>
+    <label anchor="(1.4,-0.3)" alignment="c"><m>\triangle x</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-0.5,-0.5,3.5,3.5)">
+    <grid spacings="((-0.5,4,3.5),(-0.5,4,3.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = 1 + 0.3*x**2</definition>
+    <area-under-curve function="f" domain="(0.25,2.5)" fill="lightblue"/>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+    <riemann-sum function="f" N="1" domain="(1.2,1.6)" rule="midpoint" fill="lightgreen" cliptobbox="yes"/>
+    <label anchor="(0.1,3)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>y</m></label>
+    <label anchor="(3,0.1)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>t</m></label>
+    <label anchor="(2.25,2.25)" alignment="nw" offset="(-4,2)" cliptobbox="yes"><m>y= v(t)</m></label>
+    <label anchor="(1.2,0.65)" alignment="w" offset="(-3,0)" cliptobbox="yes"><m>v(t)</m></label>
+    <label anchor="(1.4,-0.3)" alignment="c" cliptobbox="yes"><m>\triangle t</m></label>
+    <label anchor="(0.25,-0.35)" alignment="n" offset="(0,2)" cliptobbox="yes"><m>a</m></label>
+    <label anchor="(2.5,-0.35)" alignment="n" offset="(0,2)" cliptobbox="yes"><m>b</m></label>
+  </coordinates>
+
+  <coordinates destination="(310,10,440,140)"
+               bbox="(-1,-10,11,10)">
+    <line endpoints="((-1,0),(0,0))" stroke="black" thickness="1.5"/>
+    <line endpoints="((0.1,1),(10.1,1))" stroke="blue"/>
+    <line endpoints="((0.1,-1),(10.1,-1))" stroke="blue"/>
+    <definition>f1(x) = sqrt(10*x)</definition>
+    <graph function="f1" stroke="blue" domain="(0,0.1)"/>
+    <definition>f2(x) = -sqrt(10*x)</definition>
+    <graph function="f2" stroke="blue" domain="(0,0.1)"/>
+    <definition>f3(x) = sqrt(10*(x-10))</definition>
+    <graph function="f3" stroke="blue" domain="(10,10.1)"/>
+    <definition>f4(x) = -sqrt(10*(x-10))</definition>
+    <graph function="f4" stroke="blue" domain="(10,10.1)"/>
+    <definition>f5(x) = sqrt(-10*(x-10.2))</definition>
+    <graph function="f5" stroke="blue" domain="(10.1,10.2)"/>
+    <definition>f6(x) = -sqrt(-10*(x-10.2))</definition>
+    <graph function="f6" stroke="blue" domain="(10.1,10.2)"/>
+    <definition>f7(x) = sqrt(10*(x-4))</definition>
+    <graph function="f7" stroke="red" domain="(4,4.1)"/>
+    <definition>f8(x) = -sqrt(10*(x-4))</definition>
+    <graph function="f8" stroke="red" domain="(4,4.1)"/>
+    <definition>f9(x) = sqrt(10*(x-4.4))</definition>
+    <graph function="f9" stroke="red" domain="(4.4,4.5)"/>
+    <definition>f10(x) = -sqrt(10*(x-4.4))</definition>
+    <graph function="f10" stroke="red" domain="(4.4,4.5)"/>
+    <definition>f11(x) = sqrt(-10*(x-4.6))</definition>
+    <graph function="f11" stroke="red" domain="(4.5,4.59999)"/>
+    <definition>f12(x) = -sqrt(-10*(x-4.6))</definition>
+    <graph function="f12" stroke="red" domain="(4.5,4.59999)"/>
+    <label anchor="(4.25,-1.5)" alignment="s" offset="(0,0)"><m>\triangle x</m></label>
+    <label anchor="(0.25,1.1)" alignment="n" offset="(0,1)"><m>\rho(x)</m></label>
+    <line endpoints="((10.1,0),(11,0))" stroke="black" thickness="1.5"/>
+  </coordinates>
+</diagram>

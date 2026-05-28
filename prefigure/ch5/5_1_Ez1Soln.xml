@@ -1,0 +1,32 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-3.5,6.5,3.5)">
+    <grid spacings="((-0.5,0.5,6.5),(-3.5,0.5,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(1,5,6)" vlabels="(-3,3,3)"/>
+    <definition>f(x) = -2 + 0.5*(x-3)**2</definition>
+    <area-under-curve function="f" domain="(0,1)" fill="lightblue"/>
+    <area-under-curve function="f" domain="(1,3)" fill="lightred"/>
+    <graph function="f" stroke="blue" domain="(0,6)"/>
+    <label anchor="(5.5,2)" alignment="nw" offset="(-2,2)"><m>v</m></label>
+    <label anchor="(0.3,0.7)" alignment="c"><m>A_1</m></label>
+    <label anchor="(2.2,-0.8)" alignment="c"><m>A_2</m></label>
+    <label anchor="(6,0.4)" alignment="c"><m>t</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-0.5,-3.5,6.5,3.5)">
+    <grid spacings="((-0.5,0.5,6.5),(-3.5,0.5,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,2,6)" vlabels="(-3,2,3)"/>
+    <definition>g(x) = -2*x + 0.16667*(x-3)**3 + 5</definition>
+    <graph function="g" stroke="blue" domain="(0,6)"/>
+    <point p="(1,g(1))" size="2" fill="blue"/>
+    <point p="(3,g(3))" size="2" fill="blue"/>
+    <point p="(5,g(5))" size="2" fill="blue"/>
+    <point p="(6,g(6))" size="2" fill="blue"/>
+    <label anchor="(1,1.667)" alignment="n" offset="(0,2)"><m>(1, 5/3)</m></label>
+    <label anchor="(3,-1)" alignment="sw" offset="(2,2)"><m>(3, -1)</m></label>
+    <label anchor="(6,0.4)" alignment="c"><m>t</m></label>
+    <label anchor="(2,1)" alignment="ne" offset="(2,2)"><m>s</m></label>
+  </coordinates>
+</diagram>

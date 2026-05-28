@@ -1,0 +1,23 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-4,-2,4,6)">
+    <axes decorations="no"/>
+    <label anchor="(5.2,0.2)" alignment="ne"><m>x</m></label>
+    <label anchor="(3,1)" alignment="ne"><m>f</m></label>
+    <definition>f(x) = -0.1*(x-2.5)*x*(x+2)*(x+2) + 2.75</definition>
+    <graph function="f" stroke="blue" domain="(-4,4)" cliptobbox="yes"/>
+    <point p="(-2,f(-2))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(-2,f(-2))" alignment="n" offset="(0,4)" cliptobbox="yes">relative max</label>
+    <line endpoints="((-2,-0.1),(-2,0.1))" stroke="black" thickness="1.5" cliptobbox="yes"/>
+    <label anchor="(-2,-0.75)" alignment="n" cliptobbox="yes"><m>a</m></label>
+    <point p="(-0.763086,f(-0.763086))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(-0.763086,f(-0.763086)-0.25)" alignment="s" offset="(4,-2)" cliptobbox="yes">relative min</label>
+    <line endpoints="((-0.763086,-0.1),(-0.763086,0.1))" stroke="black" thickness="1.5" cliptobbox="yes"/>
+    <label anchor="(-0.763086,-0.75)" alignment="n" offset="(0,-1)" cliptobbox="yes"><m>b</m></label>
+    <point p="(1.63809,f(1.63809))" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(1.63809,f(1.63809))" alignment="n" offset="(0,4)" cliptobbox="yes">global max</label>
+    <line endpoints="((1.63809,-0.1),(1.63809,0.1))" stroke="black" thickness="1.5" cliptobbox="yes"/>
+    <label anchor="(1.63809,-0.75)" alignment="n" cliptobbox="yes"><m>c</m></label>
+  </coordinates>
+</diagram>

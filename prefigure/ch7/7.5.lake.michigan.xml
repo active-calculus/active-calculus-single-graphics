@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(0,-1.5,3,1.5)">
+    <axes decorations="no"/>
+    <definition>__a(x) = 0.8*(1.5 - x)</definition>
+    <graph function="__a" stroke="blue"/>
+    <label anchor="(3,0)" alignment="nw" offset="(0,3)"><m>P</m></label>
+    <label anchor="(0,1.5)" alignment="se" offset="(3,-3)"><m>dP/dt</m></label>
+    <label anchor="(1.5,0)" alignment="ne" offset="(3,3)"><m>1.5\cdot10^5</m></label>
+  </coordinates>
+</diagram>

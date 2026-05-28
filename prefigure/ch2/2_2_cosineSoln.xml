@@ -1,0 +1,40 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(480,80)">
+  <coordinates destination="(10,10,230,70)"
+               bbox="(-2*pi,-2,2*pi,2)">
+    <grid spacings="((-2*pi,pi/2,2*pi),(-2,1,2))" stroke="lightgray"/>
+    <axes decorations="no" vlabels="(-1,1,1)"/>
+    <label anchor="(-2*pi,-0.4)" alignment="s" offset="(2,2)"><m>-2\pi</m></label>
+    <label anchor="(-pi,-0.4)" alignment="s" offset="(-2,2)"><m>-\pi</m></label>
+    <label anchor="(pi,-0.5)" alignment="s" offset="(2,2)"><m>\pi</m></label>
+    <label anchor="(2*pi,-0.4)" alignment="s" offset="(0,2)"><m>2\pi</m></label>
+    <definition>f(x) = cos(x)</definition>
+    <graph function="f" stroke="blue" cliptobbox="yes"/>
+    <tangent-line function="f" point="3*pi/2" domain="(3*pi/2-0.7,3*pi/2+0.7)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(3*pi/2,f(3*pi/2))" size="2" fill="red" cliptobbox="yes"/>
+    <tangent-line function="f" point="pi" domain="(pi-0.7,pi+0.7)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(pi,f(pi))" size="2" fill="red" cliptobbox="yes"/>
+    <tangent-line function="f" point="pi/2" domain="(pi/2-0.7,pi/2+0.7)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(pi/2,f(pi/2))" size="2" fill="red" cliptobbox="yes"/>
+    <tangent-line function="f" point="0" domain="(-0.7,0.7)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(0,f(0))" size="2" fill="red" cliptobbox="yes"/>
+    <tangent-line function="f" point="-pi/2" domain="(-pi/2-0.7,-pi/2+0.7)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(-pi/2,f(-pi/2))" size="2" fill="red" cliptobbox="yes"/>
+    <tangent-line function="f" point="-pi" domain="(-pi-0.7,-pi+0.7)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(-pi,f(-pi))" size="2" fill="red" cliptobbox="yes"/>
+    <tangent-line function="f" point="-3*pi/2" domain="(-3*pi/2-0.7,-3*pi/2+0.7)" stroke="darkgreen" cliptobbox="yes"/>
+    <point p="(-3*pi/2,f(-3*pi/2))" size="2" fill="red" cliptobbox="yes"/>
+  </coordinates>
+
+  <coordinates destination="(250,10,470,70)"
+               bbox="(-2*pi,-2,2*pi,2)">
+    <grid spacings="((-2*pi,pi/2,2*pi),(-2,1,2))" stroke="lightgray"/>
+    <axes decorations="no" vlabels="(-1,1,1)"/>
+    <label anchor="(-2*pi,-0.4)" alignment="s" offset="(2,2)"><m>-2\pi</m></label>
+    <label anchor="(-pi,-0.4)" alignment="s" offset="(-2,2)"><m>-\pi</m></label>
+    <label anchor="(pi,-0.5)" alignment="s" offset="(2,2)"><m>\pi</m></label>
+    <label anchor="(2*pi,-0.4)" alignment="s" offset="(0,2)"><m>2\pi</m></label>
+    <definition>f(x) = -sin(x)</definition>
+    <graph function="f" stroke="darkgreen" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

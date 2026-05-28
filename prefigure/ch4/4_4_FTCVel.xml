@@ -1,0 +1,16 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-0.5,3.5,4.5)">
+    <grid spacings="((-0.5,4,3.5),(-0.5,5,4.5))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <definition>f(x) = -0.25*(x-1)**2 + 3</definition>
+    <area-under-curve function="f" domain="(0.5,3)" fill="lightblue"/>
+    <graph function="f" stroke="blue"/>
+    <label anchor="(0.5,-0.5)" alignment="n" offset="(0,2)"><m>a</m></label>
+    <label anchor="(3,-0.5)" alignment="n" offset="(0,2)"><m>b</m></label>
+    <label anchor="(1.7,1.5)" alignment="c"><m>D =\int_a^b v(t) \, dt</m></label>
+    <label anchor="(1.86,0.9)" alignment="c" offset="(4,0)"><m>=s(b)-s(a)</m></label>
+    <label anchor="(3.4,2.7)" alignment="nw" offset="(-2,2)"><m>y = v(t)</m></label>
+  </coordinates>
+</diagram>

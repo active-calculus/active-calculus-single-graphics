@@ -1,0 +1,49 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300, 150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-3.5,-3.5,3.5,3.5)">
+    <grid spacings="((-3.5,0.5,3.5),(-3.5,0.5,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,3,3)" vlabels="(-3,3,3)"/>
+    <label anchor="(1,1.2)"><m>y=h(x)</m></label>
+    <definition>f1(x) = 1*(x+3)+2</definition>
+    <graph function="f1" stroke="blue" domain="(-3.5,-2)" cliptobbox="yes"/>
+    <definition>f2(x) = -1*(x+2)+3</definition>
+    <graph function="f2" stroke="blue" domain="(-2,0)" cliptobbox="yes"/>
+    <definition>f3(x) = 1*(x-0)+1</definition>
+    <graph function="f3" stroke="blue" domain="(0,2)" cliptobbox="yes"/>
+    <definition>f4(x) = -1*(x-2)+3</definition>
+    <graph function="f4" stroke="blue" domain="(2,3.5)" cliptobbox="yes"/>
+    <definition>f5(x) = 1*(x+3)-1</definition>
+    <graph function="f5" stroke="red" domain="(-3.5,-2)" cliptobbox="yes"/>
+    <definition>f6(x) = -1*(x+2)+1</definition>
+    <graph function="f6" stroke="red" domain="(-2,0)" cliptobbox="yes"/>
+    <definition>f7(x) = 1*(x-0)-3</definition>
+    <graph function="f7" stroke="red" domain="(0,2)" cliptobbox="yes"/>
+    <definition>f8(x) = -1*(x-2)-1</definition>
+    <graph function="f8" stroke="red" domain="(2,3.5)" cliptobbox="yes"/>
+    <point p="(-2,0)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(-2,1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(0,-1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(0,-3)" size="2" fill="white" cliptobbox="yes"/>
+  </coordinates>
+  <coordinates destination="(155,5,295,145)"
+               bbox="(-3.5,-3.5,3.5,3.5)">
+    <grid spacings="((-3.5,0.5,3.5),(-3.5,0.5,3.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,1,3)" vlabels="(-3,1,3)"/>
+    <label anchor="(1,1.2)"><m>y=h'(x)</m></label>
+    <definition>g1(x) = 1</definition>
+    <graph function="g1" stroke="blue" domain="(-3.5,-2)" cliptobbox="yes"/>
+    <definition>g2(x) = -1</definition>
+    <graph function="g2" stroke="blue" domain="(-2,0)" cliptobbox="yes"/>
+    <definition>g3(x) = 1</definition>
+    <graph function="g3" stroke="blue" domain="(0,2)" cliptobbox="yes"/>
+    <definition>g4(x) = -1</definition>
+    <graph function="g4" stroke="blue" domain="(2,3.5)" cliptobbox="yes"/>
+    <point p="(-2,1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(-2,-1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(0,1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(0,-1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(2,1)" size="2" fill="white" cliptobbox="yes"/>
+    <point p="(2,-1)" size="2" fill="white" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

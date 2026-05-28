@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-4,-4,4,4)">
+    <grid spacings="((-4,1,4),(-4,1,4))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-3,3,3)" vlabels="(-3,3,3)"/>
+    <definition>f(x,y) = (y*y*y*y*y - 5*y*y*y + 4*y) - x</definition>
+    <implicit-curve function="f" value="0" initial-depth="6" depth="10" stroke="blue"/>
+    <label anchor="(3.6,0.2)" alignment="ne" offset="(1,1)"><m>x</m></label>
+    <label anchor="(0.2,3.6)" alignment="ne" offset="(1,1)"><m>y</m></label>
+  </coordinates>
+</diagram>

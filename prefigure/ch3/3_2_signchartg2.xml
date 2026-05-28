@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(180,120)">
+  <coordinates destination="(60,6,174,114)"
+               bbox="(-3,-2,3,4)">
+    <line endpoints="((-3,0),(3,0))" stroke="black" thickness="1.5"/>
+    <label anchor="(-3,0.5)" alignment="nw" offset="(-2,0)">sign(<m>g''</m>)</label>
+    <label anchor="(-3,-0.5)" alignment="sw" offset="(-2,0)">behav(<m>g</m>)</label>
+    <label anchor="(-1.5,1.6)" alignment="n"><m>+-</m></label>
+    <label anchor="(-1.5,0.6)" alignment="n"><m>-</m></label>
+    <label anchor="(-1.5,-0.5)" alignment="s" offset="(0,-2)">CCD</label>
+    <line endpoints="((0,-0.25),(0,0.25))" stroke="black" thickness="1.5"/>
+    <label anchor="(0,-0.5)" alignment="s" offset="(0,-2)"><m>\frac{2}{b}</m></label>
+    <label anchor="(1.5,1.6)" alignment="n"><m>++</m></label>
+    <label anchor="(1.5,0.6)" alignment="n"><m>+</m></label>
+    <label anchor="(1.5,-0.5)" alignment="s" offset="(0,-2)">CCU</label>
+    <label anchor="(0,3)" alignment="n" offset="(0,2)"><m>g''(x) = abe^{-bx}(bx-2)</m></label>
+  </coordinates>
+</diagram>

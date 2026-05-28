@@ -1,0 +1,32 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150, 150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-20,-20,110,110)">
+    <grid spacings="((-20,10,110),(-20,10,110))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(20,20,100)" vlabels="(20,20,100)"/>
+    <label anchor="(105,3)"><m>t</m></label>
+    <label anchor="(3,105)"><m>s</m></label>
+    <label anchor="(55,65)" alignment="nw" offset="(2,2)"><m>(57,63.8)</m></label>
+    <label anchor="(69,64)" alignment="se" offset="(-2,-2)"><m>(68,63.8)</m></label>
+    <label anchor="(103,107)" alignment="nw" offset="(2,2)"><m>(104,106.8)</m></label>
+    <definition>f1(x) = 7*x*x/24</definition>
+    <graph function="f1" stroke="blue" domain="(0,2)"/>
+    <definition>f2(x) = 7*(x-2)/6 + 7/6</definition>
+    <graph function="f2" stroke="blue" domain="(2,55.2)"/>
+    <definition>f3(x) = -7*(x-57)*(x-57)/24 + 63.83</definition>
+    <graph function="f3" stroke="blue" domain="(55.2,57)"/>
+    <definition>f4(x) = 63.83</definition>
+    <graph function="f4" stroke="blue" domain="(57,66)"/>
+    <definition>f5(x) = 7*(x-66)*(x-66)/24 + 63.83</definition>
+    <graph function="f5" stroke="blue" domain="(66,68)"/>
+    <definition>f6(x) = 7*(x-68)/6 + 64.83</definition>
+    <graph function="f6" stroke="blue" domain="(68,104)"/>
+    <definition>f7(x) = -7*(x-106)*(x-106)/24 + 108</definition>
+    <graph function="f7" stroke="blue" domain="(104,106)"/>
+    <definition>f8(x) = 108</definition>
+    <graph function="f8" stroke="blue" domain="(106,110)"/>
+    <point p="(104,106.8)" size="1" fill="red"/>
+    <point p="(57,63.83)" size="1" fill="red"/>
+    <point p="(66,63.83)" size="1" fill="red"/>
+  </coordinates>
+</diagram>

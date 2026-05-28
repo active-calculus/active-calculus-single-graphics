@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-4,-2,4,14)">
+    <grid spacings="((-4,1,4),(-2,2,14))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(-2,4,2)" vlabels="(0,4,12)"/>
+    <definition>f1(x) = x**2 + cos(3*x)</definition>
+    <graph function="f1" stroke="darkblue" domain="(-4,4)" cliptobbox="yes"/>
+    <definition>f2(x) = x**2 + cos(1.6*x)</definition>
+    <graph function="f2" stroke="lightblue" domain="(-4,4)" cliptobbox="yes"/>
+  </coordinates>
+</diagram>

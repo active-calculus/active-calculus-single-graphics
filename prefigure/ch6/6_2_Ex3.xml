@@ -1,0 +1,44 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-1.5,-1.5,1.5,1.5)">
+    <grid spacings="((-1.5,3,1.5),(-1.5,3,1.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,1)" vlabels="(0,1,1)"/>
+    <definition>f1(x) = sqrt(x)</definition>
+    <definition>f2(x) = sqrt(fabs(x))</definition>
+    <definition>g(x) = x**4</definition>
+    <area-under-curve function="f1" lower="g" domain="(0,1)" fill="lightgray"/>
+    <area-under-curve function="f2" lower="g" domain="(-1,0)" fill="lightgray"/>
+    <graph function="f1" stroke="darkgreen" domain="(0,1)" cliptobbox="yes"/>
+    <graph function="f2" stroke="darkgreen" domain="(-1,0)" cliptobbox="yes"/>
+    <graph function="g" stroke="darkblue" domain="(0,1)" cliptobbox="yes"/>
+    <graph function="g" stroke="darkblue" domain="(-1,0)" cliptobbox="yes"/>
+    <definition>__a(t) = (0.8409*cos(t), 0.1*sin(t)+0.4)</definition>
+    <parametric-curve function="__a" domain="(pi, 2*pi)" stroke="red" cliptobbox="yes"/>
+    <definition>__b(t) = (0.8409*cos(t), 0.1*sin(t)+0.6)</definition>
+    <parametric-curve function="__b" domain="(0, 2*pi)" stroke="red" cliptobbox="yes"/>
+    <definition>__c(t) = (0.32*cos(t), 0.04*sin(t)+0.6)</definition>
+    <parametric-curve function="__c" domain="(0, 2*pi)" stroke="magenta" cliptobbox="yes"/>
+    <definition>__d(t) = (cos(t), 0.1*sin(t)+1)</definition>
+    <parametric-curve function="__d" domain="(0, 2*pi)" stroke="darkblue" cliptobbox="yes"/>
+    <line endpoints="((0.8409,0.4),(0.8409,0.6))" stroke="red" cliptobbox="yes"/>
+    <line endpoints="((-0.8409,0.4),(-0.8409,0.6))" stroke="red" cliptobbox="yes"/>
+    <label anchor="(1.1,0.5)" alignment="c" cliptobbox="yes"><m>\triangle y</m></label>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-4,-4,4,4)">
+    <grid spacings="((-4,8,4),(-4,8,4))" stroke="lightgray"/>
+    <axes decorations="no"/>
+    <circle center="(0,0)" radius="3" fill="lightgray"/>
+    <circle center="(0,0)" radius="1" fill="white"/>
+    <definition>__a(t) = (3*cos(t), 3*sin(t))</definition>
+    <parametric-curve function="__a" domain="(0, 2*pi)" stroke="red"/>
+    <definition>__b(t) = (cos(t), sin(t))</definition>
+    <parametric-curve function="__b" domain="(0, 2*pi)" stroke="magenta"/>
+    <line endpoints="((0,0),(1,0))" stroke="black"/>
+    <line endpoints="((0,0),(2.1213,2.1213))" stroke="black"/>
+    <label anchor="(0.5,-0.75)" alignment="n" offset="(0,2)" scale="0.8"><m>r(y)</m></label>
+    <label anchor="(1.0607,1.0607)" alignment="se" offset="(2,-2)" scale="0.8"><m>R(y)</m></label>
+  </coordinates>
+</diagram>

@@ -1,0 +1,55 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(10,10,140,140)"
+               bbox="(-0.5,-4.5,8.5,4.5)">
+    <grid spacings="((-0.5,0.5,8.5),(-4.5,0.5,4.5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(2,2,8)" vlabels="(-4,2,4)"/>
+    <definition>f1(x) = 2 - 2*x</definition>
+    <area-under-curve function="f1" domain="(0,2)" fill="lightgreen"/>
+    <graph function="f1" stroke="blue" domain="(0,2)"/>
+    <definition>f2(x) = -2</definition>
+    <area-under-curve function="f2" domain="(2,3)" fill="lightgreen"/>
+    <graph function="f2" stroke="blue" domain="(2,3)"/>
+    <definition>f3(x) = -2 + 2*(x-3)</definition>
+    <area-under-curve function="f3" domain="(3,5)" fill="lightgreen"/>
+    <area-under-curve function="f3" domain="(5,6)" fill="lightgreen"/>
+    <graph function="f3" stroke="blue" domain="(3,6)"/>
+    <definition>f4(x) = 4 - 2*(x-6)</definition>
+    <area-under-curve function="f4" domain="(6,7)" fill="lightgreen"/>
+    <area-under-curve function="f4" domain="(7,8)" fill="lightgreen"/>
+    <graph function="f4" stroke="blue" domain="(6,8)"/>
+    <label anchor="(0.25,4)" alignment="ne" offset="(2,0)">m/sec</label>
+    <label anchor="(8,0.25)" alignment="ne" offset="(2,2)">sec</label>
+    <label anchor="(6.5,3)" alignment="ne" offset="(2,2)"><m>y = v(t)</m></label>
+    <label anchor="(0.4,0.5)" alignment="c" scale="0.75"><m>1</m></label>
+    <label anchor="(4.6,0.5)" alignment="c" scale="0.75"><m>1</m></label>
+    <label anchor="(7.4,0.5)" alignment="c" scale="0.75"><m>1</m></label>
+    <label anchor="(1.6,-0.5)" alignment="c" scale="0.75"><m>1</m></label>
+    <label anchor="(3.4,-0.5)" alignment="c" scale="0.75"><m>1</m></label>
+    <label anchor="(2.5,-1)" alignment="c" scale="0.75"><m>2</m></label>
+    <label anchor="(5.5,2)" alignment="c" scale="0.75"><m>3</m></label>
+    <label anchor="(6.5,2)" alignment="c" scale="0.75"><m>3</m></label>
+    <point p="(1,0)" size="1.5" fill="red"/>
+    <point p="(2,-2)" size="1.5" fill="red"/>
+    <point p="(3,-2)" size="1.5" fill="red"/>
+    <point p="(4,0)" size="1.5" fill="red"/>
+    <point p="(5,2)" size="1.5" fill="red"/>
+    <point p="(6,4)" size="1.5" fill="red"/>
+    <point p="(7,2)" size="1.5" fill="red"/>
+  </coordinates>
+
+  <coordinates destination="(160,10,290,140)"
+               bbox="(-0.5,-9,8.5,9)">
+    <grid spacings="((-0.5,0.5,8.5),(-9,1,9))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(2,2,8)" vlabels="(-8,4,8)"/>
+    <definition>f1(x) = 2*x - x**2 + 1</definition>
+    <graph function="f1" stroke="blue" domain="(0,2)"/>
+    <definition>f2(x) = -2*(x-2) + 1</definition>
+    <graph function="f2" stroke="blue" domain="(2,3)"/>
+    <definition>f3(x) = -2*(x-3) + (x-3)**2 - 1</definition>
+    <graph function="f3" stroke="blue" domain="(3,6)"/>
+    <definition>f4(x) = 4*(x-6) - (x-6)**2 + 2</definition>
+    <graph function="f4" stroke="blue" domain="(6,8)"/>
+    <label anchor="(8,6)" alignment="nw" offset="(-2,2)"><m>y = s(t)</m></label>
+  </coordinates>
+</diagram>

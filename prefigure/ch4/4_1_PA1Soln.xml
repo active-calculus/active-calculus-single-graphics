@@ -1,0 +1,33 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(300,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-0.25,-1,2.5,9)">
+    <grid spacings="((-0.25,0.25,2.5),(-1,1,9))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,2)" vlabels="(0,4,8)"/>
+    <label anchor="(0.1,8)" alignment="ne" offset="(2,2)">mph</label>
+    <label anchor="(2.1,0.25)" alignment="ne" offset="(2,2)">hrs</label>
+    <definition>f1(x) = 3</definition>
+    <riemann-sum function="f1" N="1" domain="(0.25,1.5)" rule="midpoint" fill="lightgreen"/>
+    <definition>f2(x) = 3</definition>
+    <graph function="f2" stroke="lightblue" domain="(0,2.5)" cliptobbox="yes"/>
+    <label anchor="(1.5,3)" alignment="ne" offset="(2,2)" cliptobbox="yes"><m>v(t) = 3</m></label>
+    <label anchor="(0.875,1.5)" alignment="c" scale="0.75" cliptobbox="yes"><m>A = 3 \cdot 1.25 = 3.75</m></label>
+  </coordinates>
+
+  <coordinates destination="(155,5,295,145)"
+               bbox="(-0.25,-1,2.5,9)">
+    <grid spacings="((-0.25,0.25,2.5),(-1,1,9))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,2)" vlabels="(0,4,8)"/>
+    <label anchor="(0.1,8)" alignment="ne" offset="(2,2)">miles</label>
+    <label anchor="(2.1,0.25)" alignment="ne" offset="(2,2)">hrs</label>
+    <definition>f(x) = 3*x</definition>
+    <graph function="f" stroke="darkblue" domain="(0,2.5)" cliptobbox="yes"/>
+    <line endpoints="((0.25,0),(0.25,0.75))" stroke="lightgreen" thickness="1.5" cliptobbox="yes"/>
+    <point p="(0.25,0.75)" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(0.25,0.375)" alignment="e" offset="(2,0)" scale="0.75" cliptobbox="yes"><m>s(0.25)=0.75</m></label>
+    <line endpoints="((1.5,0),(1.5,4.5))" stroke="lightgreen" thickness="1.5" cliptobbox="yes"/>
+    <point p="(1.5,4.5)" size="2" fill="red" cliptobbox="yes"/>
+    <label anchor="(1.5,2.25)" alignment="e" offset="(2,0)" scale="0.75" cliptobbox="yes"><m>s(1.5)=4.5</m></label>
+    <label anchor="(2,6)" alignment="nw" offset="(-2,2)" cliptobbox="yes"><m>s(t) = 3t</m></label>
+  </coordinates>
+</diagram>

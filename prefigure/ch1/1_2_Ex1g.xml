@@ -1,0 +1,17 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(180, 90)">
+  <coordinates destination="(10,10,170,80)"
+               bbox="(-4,-2,4,2)">
+
+    <grid spacings="((-4,1,4),(-2,1,2))"
+          stroke="lightgray"/>
+
+    <axes decorations="no" hlabels="(-3,2,3)" vlabels="(-2,2,2)"/>
+
+    <label anchor="(3.2, 1.1)"><m>g</m></label>
+
+    <definition>f(x) = sin(pi/x)</definition>
+    <graph function="f" stroke="blue" miterlimit="1" domain="(-4,-0.01)" N="6000"/>
+    <graph function="f" stroke="blue" miterlimit="1" domain="(0.01,4)" N="6000"/>
+  </coordinates>
+</diagram>

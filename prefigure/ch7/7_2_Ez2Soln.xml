@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org"
+         dimensions="(150,150)">
+  <coordinates destination="(5,5,145,145)"
+               bbox="(-1,-1,5,5)">
+    <grid spacings="((-1,1,5),(-1,1,5))" stroke="lightgray"/>
+    <axes decorations="no" hlabels="(0,1,4)" vlabels="(0,1,4)"/>
+    <label anchor="(3.9,0)" alignment="nw" offset="(-3,3)"><m>t</m></label>
+    <label anchor="(0,4)" alignment="se" offset="(3,-3)"><m>y</m></label>
+    <definition>f(x,y) = -0.5*y*(y-1)*(y-3)</definition>
+    <slope-field function="f" spacings="((-0.5,0.5,4.5),(-0.5,0.5,4.5))" stroke="darkmagenta"/>
+  </coordinates>
+</diagram>
